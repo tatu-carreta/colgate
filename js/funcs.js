@@ -20,72 +20,86 @@ function validateEmail(sEmail) {
     }
 }
 
-function validarRegistro() {
-            var ok = false;
-
-            var nombre = $("input[name='nomyape']");
-            var dni = $("input[name='dni']");
-            var domicilio = $("input[name='domicilio']");
-            var cdpostal = $("input[name='cdpost']");
-            var ciudad = $("input[name='ciudad']");
-            var provincia = $("input[name='prov']");
-            var codTel = $("input[name='codTel']");
-            var numTel = $("input[name='numTel']");
-            var correo = $("input[name='correo']");
-
-
-            if (nombre.val() == "")
+$(function () {
+    $(".num").bind('keypress', function (event) {
+        var regex = new RegExp("^[0-9]+$");
+        var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+        if ((!regex.test(key))) {//
+            if (($.inArray(event.keyCode, [8, 9, 13, 37, 38, 39, 46])) == -1)
             {
-                alert("El Nombre y Apellido está vacío.");
-                nombre.focus();
+                event.preventDefault();
+                return false;
             }
-            else if ((dni.val() == "") || isNaN(dni.val()))
-            {
-                alert("El DNI está vacío o contiene caracteres alfanuméricos.");
-                dni.focus();
-            }
-            else if (domicilio.val() == "")
-            {
-                alert("El Domicilio está vacío.");
-                domicilio.focus();
-            }
-            else if ((cdpostal.val() == "") /*|| isNaN(cdpostal.val())*/)
-            {
-                alert("El Código Postal está vacío."); //o contiene caracteres alfanuméricos.
-                cdpostal.focus();
-            }
-            else if (ciudad.val() == "")
-            {
-                alert("La Ciudad está vacía.");
-                ciudad.focus();
-            }
-            else if (provincia.val() == "")
-            {
-                alert("La Provincia está vacía.");
-                provincia.focus();
-            }
-            else if ((codTel.val() == "") || isNaN(dni.val()))
-            {
-                alert("La Característica del Teléfono está vacía o contiene caracteres alfanuméricos.");
-                codTel.focus();
-            }
-            else if ((numTel.val() == "") || isNaN(dni.val()))
-            {
-                alert("El Número del Teléfono está vacío o contiene caracteres alfanuméricos.");
-                numTel.focus();
-            }
-            else if ((correo.val() == "") || (!validateEmail(correo.val())))
-            {
-                alert("El Correo electrónico está vacío o no tiene un formato válido.");
-                correo.focus();
-            }
-            else
-            {
-                ok = true;
-            }
-
-            return ok;
         }
+    });
+});
+
+function validarRegistro() {
+    var ok = false;
+
+    var nombre = $("input[name='nomyape']");
+    var dni = $("input[name='dni']");
+    var domicilio = $("input[name='domicilio']");
+    var cdpostal = $("input[name='cdpost']");
+    var ciudad = $("input[name='ciudad']");
+    var provincia = $("input[name='prov']");
+    var codTel = $("input[name='codTel']");
+    var numTel = $("input[name='numTel']");
+    var correo = $("input[name='correo']");
+
+
+    if (nombre.val() == "")
+    {
+        alert("El Nombre y Apellido está vacío.");
+        nombre.focus();
+    }
+    else if ((dni.val() == "") || isNaN(dni.val()))
+    {
+        alert("El DNI está vacío o contiene caracteres alfanuméricos.");
+        dni.focus();
+    }
+    else if (domicilio.val() == "")
+    {
+        alert("El Domicilio está vacío.");
+        domicilio.focus();
+    }
+    else if ((cdpostal.val() == "") /*|| isNaN(cdpostal.val())*/)
+    {
+        alert("El Código Postal está vacío."); //o contiene caracteres alfanuméricos.
+        cdpostal.focus();
+    }
+    else if (ciudad.val() == "")
+    {
+        alert("La Ciudad está vacía.");
+        ciudad.focus();
+    }
+    else if (provincia.val() == "")
+    {
+        alert("La Provincia está vacía.");
+        provincia.focus();
+    }
+    else if ((codTel.val() == "") || isNaN(dni.val()))
+    {
+        alert("La Característica del Teléfono está vacía o contiene caracteres alfanuméricos.");
+        codTel.focus();
+    }
+    else if ((numTel.val() == "") || isNaN(dni.val()))
+    {
+        alert("El Número del Teléfono está vacío o contiene caracteres alfanuméricos.");
+        numTel.focus();
+    }
+    else if ((correo.val() == "") || (!validateEmail(correo.val())))
+    {
+        alert("El Correo electrónico está vacío o no tiene un formato válido.");
+        correo.focus();
+    }
+    else
+    {
+        ok = true;
+    }
+
+    return ok;
+}
 
 function f_submit_replace(form, validar, path_replace) {
     var post_url = form.attr("action");

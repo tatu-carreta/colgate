@@ -2,7 +2,7 @@
     Nombre y Apellido
     <input type="text" name="nomyape" placeholder="requerido">
     DNI
-    <input type="text" name="dni" placeholder="Solo numeros y requerido">
+    <input type="text" name="dni" placeholder="Solo numeros y requerido" class="num">
     Domicilio
     <input type="text" name="domicilio" placeholder="requerido">
     CP
@@ -12,12 +12,12 @@
     Provincia
     <input type="text" name="prov" placeholder="requerido">
     Telefono de contacto
-    <input type="text" name="codTel" placeholder="requerido (solo num)">
-    <input type="text" name="numTel" placeholder="requerido (solo num)">
+    <input type="text" name="codTel" placeholder="requerido (solo num)" class="num">
+    <input type="text" name="numTel" placeholder="requerido (solo num)" class="num">
     Correo electrónico
     <input type="text" name="correo" placeholder="requerido">
     EAN del producto (código de barras de 13 dígitos)
-    <input type="text" name="prods[]" placeholder="requerido (solo num)"> 
+    <input type="text" name="prods[]" placeholder="requerido (solo num)" class="num"> 
     <div id="masProd"></div>
     <span id="verMas">Ver más</span>
     
