@@ -3,7 +3,7 @@ $(function () {
     $('#verMas').click(function () {
         if (cantProds < 10)
         {
-            $('#masProd').append('<input type="text" name="prods[]">');
+            $('#masProd').append('<input type="text" name="prods[]" required="true">');
             cantProds++;
         }
     });
