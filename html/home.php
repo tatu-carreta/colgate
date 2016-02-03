@@ -1,8 +1,24 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<!-- Section INICIO -->
+<section id="inicio">
+    <div class="container">
+        <h1><img src="<?php echo PATH_IMAGES; ?>vuelta-al-cole-con-Colgate.png" alt="Viví con Colgate la mejor vuelta al cole"></h1>
+        <div class="microGde"><img src="<?php echo PATH_IMAGES; ?>micro.png" alt="Viví con Colgate la mejor vuelta al cole"></div>
+        <h2 class="presentacion">Comprando cualquier producto de niños Colgate<span class="r">®</span> <span>participá por increíbles premios.</span></h2>
+        <div class="premiosGde"><img src="<?php echo PATH_IMAGES; ?>premios.png" alt="Viví con Colgate la mejor vuelta al cole"></div>
+        <nav class="menuPc">
+            <ul>
+                <li><a href="#registro" class="reg"><span>¡Registrate ahora!</span></a></li>
+                <li><a href="#productos" class="prod"><span>Productos</span></a></li>
+                <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+            </ul>
+        </nav>
+        <nav class="menuResponsive">
+            <ul>
+                <li><a href="#registro" class="reg"><span>¡Registrate ahora!</span></a></li>
+                <li><a href="#productos" class="prod"><span>Productos</span></a></li>
+                <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+            </ul>
+        </nav>
+        <div class="premiosGde"><img src="<?php echo PATH_IMAGES; ?>premios.png" alt="Viví con Colgate la mejor vuelta al cole"></div>
+    </div>
+</section>

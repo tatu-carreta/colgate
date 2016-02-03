@@ -11,12 +11,14 @@ switch ($seccion) {
         require_once (__DIR__) . '/../admin/registro.php';
         break;
     default :
-
+/*
         if ($localhost) {
             header("Location: " . PATH_HOME);
         } else {
             header("Location: " . PATH_HOME);
         }
-
+ * 
+ */
+echo "entro por no section";
         break;
 }
