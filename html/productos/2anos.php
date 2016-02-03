@@ -1,15 +1,17 @@
-<h3 class="t02">2 años<span>®</span></h3>
-<p>2 años.</p>
+<h3 class="t2">Protección de los dientes de leche</h3>
+<p>Cepillos de cerdas suaves que proporcionan limpieza y
+protección eficaces. Con personajes divertidos para ayudar a
+hacer la rutina siempre divertida.</p>
 <div class="prodImg">
     <img src="../images/productos/colgate-2.png" alt="Mi primer Colgate, para niños menores de 2 años">
 </div>
-<div class="globoProd gl02">
-    <h2>Cepillo dental Colgate®</h2>
-    <p class="edad">+2 años</p>
-    <ul class="ul02">
-        <li>Para que los padres ayuden a los niños a cepillarse los dientes.</li>
-        <li>Cerdas extra suaves para una limpieza suave y efectiva.</li>
-        <li>Cabeza compacta para la boca pequeña del niño.</li>
-        <li>Mango anti-deslizante que se adapta a la mano del niño y padre para el cepillado.</li>
+<div class="globoProd gl2">
+    <h2>Cepillo dental Colgate®<br>
+	Dr. Rabbit.®</h2>
+    <p class="edad">2+ años</p>
+    <ul class="ul2">
+        <li>Cabeza ovalada pequeña que protege las encías.</li>
+        <li>Cerdas extra suaves que proporcionan una limpieza real de varios niveles de los dientes, grandes o pequeños.</li>
+        <li>Formato anatómico.</li>
     </ul>
 </div>

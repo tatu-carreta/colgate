@@ -3,7 +3,7 @@ body, html {height: 100%}
 .container {max-width: 1180px; margin:0 auto; padding: 0 10px; position: relative;}
 ul, li {list-style: none; padding: 0; margin: 0px;}
 a {text-decoration: none;}
-a span {display: none;}
+button span {display: none;}
 .clear {clear: both;}
 
 h1 { max-width: 860px; height: 113px; margin:15px auto 0;}/*background: url(../images/vuelta-al-cole-con-Colgate.png) no-repeat;*/
@@ -43,8 +43,9 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 .divDivisor {margin-top: 3em}
 .divDivisor img {width: 100%; height: auto}
 
-.microGde {width: 875px; height: 532px; position: relative; left:0; }
+.microGde {background: url(../images/sombra.png) no-repeat; width: 875px; height: 532px; position: relative; left:0; }
 .premiosGde {width: 605px; height: 307px; position: absolute; right: 0; top:500px;}
+.papelitosHome {width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
 
 /* Menúes secundarios laterales */
 ul.menuProd {}
@@ -61,9 +62,10 @@ ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size:
 
 /* Menúes Productos por Edades */
 .menuEdad li {display: inline-block;}
-.menuEdad button {display: block; width: 82px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; margin: 5px; background: transparent; border: none;}
+.menuEdad button {display: block; width: 82px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; margin: 5px; background: transparent; cursor: pointer;}
 .menuEdad button:hover {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5);}
 .menuEdad button span {display: block}
+button:focus, input:focus {outline: 0}
 
 /* Formulario de Registro */
 .formRegistro {max-width: 600px}
@@ -76,6 +78,10 @@ ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size:
 .masEan {font-size: 30px !important; padding: 0 10px !important; vertical-align: middle;}
 .observacion {font-size: 0.8em}
 
+.check {}
+.check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: -2px}
+.check label {display: block}
+
 /* Bases y condiciones */
 /*#masBases {display: none}*/
 
@@ -83,24 +89,33 @@ ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size:
 .prodContent {position: relative;}
 .prodContent h3 {margin-bottom: 0.1em; font-size: 1.3em}
 .prodContent h3+p {margin-top: 0; margin-bottom: 3em}
-.prodImg {text-align: center;}
-.globoProd {background: #fff; border-radius: 30px; -webkit-border-radius: 30px; -moz-border-radius: 30px; padding: 1em; position: absolute;}
+.prodImg {text-align: center; width: 600px}
+.globoProd {position: absolute;}
 .globoProd h2 {font-size: 20px; font-weight: 600; margin: 0}
 .globoProd ul {padding-left: 15px}
 .edad {color: #e2002c; font-weight: 600; font-size: 18px; margin-top: 5px}
 	/* 02 */
-	.prodContent h3.t02, .globoProd h2 {color: #98cb4f}
-	.globoProd.gl02 {border: 8px solid #98cb4f; width: 300px; bottom:50px; right:0;}
+	.prodContent h3.t02, .globoProd.gl02 h2 {color: #98cb4f}
+	.globoProd.gl02 {background: url(../images/globo02.svg) no-repeat; background-size: cover; width: 446px; height: 378px; box-sizing:border-box; bottom:0; left:280px; padding: 30px 50px 0 130px;}
 	.globoProd .ul02 li {list-style-image: url(../images/punto02.svg);}
+	/* 2+ */
+	.prodContent h3.t2, .globoProd.gl2 h2 {color: #e1a900}
+	.globoProd.gl2 {background: url(../images/globo2.svg) no-repeat; background-size: cover; width: 418px; height: 352px; box-sizing:border-box; bottom:10px; left:-160px; padding: 50px 120px 0 70px;}
+	.globoProd .ul2 li {list-style-image: url(../images/punto2.svg);}
 
 .btn.linkColgate {margin-right: -20px !important}
 .logoColgate {position: relative; top:5px; left: 5px}
 
 /* Footer */
 footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
+.copyright {font-size: 11px; color: #2d2d2d; letter-spacing: 0.2px;text-align: center;margin-bottom: 12px;}
+.copyright a { font-size: 11px; color: #505050; text-decoration: underline;}
+.copyright a:hover {color: #c00;}   
+.brand a { display: block; width: 220px; height: 23px; margin: 0 auto; background: url(../images/cp.png) center center; text-align: center;}
+.brand a:hover {background: url(../images/cp_hover.png) center center;}
 
 /* Botones */
-.btn {background: #ffde3d; border: none; color: #e2002c; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px}
+.btn {background: #ffde3d; border: none; color: #e2002c; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px; cursor: pointer;}
 
 input[type="text"], input[type="email"] {border:2px solid red; display: inline-block; padding:0 15px; border-radius: 17px; text-transform: uppercase; font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
 input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}

@@ -2,7 +2,8 @@
 <section id="inicio">
     <div class="container">
         <h1><img src="<?php echo PATH_IMAGES; ?>vuelta-al-cole-con-Colgate.png" alt="Viví con Colgate la mejor vuelta al cole"></h1>
-        <div class="microGde"><img src="<?php echo PATH_IMAGES; ?>micro.png" alt="Viví con Colgate la mejor vuelta al cole"></div>
+        <div class="papelitosHome"><img src="<?php echo PATH_IMAGES; ?>papelitos-home.gif" alt="Viví con Colgate la mejor vuelta al cole"></div>
+        <div class="microGde"><img src="<?php echo PATH_IMAGES; ?>micro.gif" alt="Viví con Colgate la mejor vuelta al cole"></div>
         <h2 class="presentacion">Comprando cualquier producto de niños Colgate<span class="r">®</span> <span>participá por increíbles premios.</span></h2>
         <div class="premiosGde"><img src="<?php echo PATH_IMAGES; ?>premios.png" alt="Viví con Colgate la mejor vuelta al cole"></div>
         <nav class="menuPc">

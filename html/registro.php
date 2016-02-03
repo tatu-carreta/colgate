@@ -69,7 +69,7 @@
                 </div>
                 <div class="combo">
                     <label for="ean">EAN del producto (código de barras 13 dígitos)</label>
-                    <input id="ean" type="text" name="prods[]" class="num ancho60" required=""> 
+                    <input id="ean" type="text" name="prods[]" class="num ancho60 ean" required=""> 
                     <!--<input type="text" name="ean" id="ean" class="ancho60">-->
                     <!--<div id="masProd"></div>-->
                     <button type="button" class="btn masEan">+<span>Agregar más códigos</span></button>
@@ -78,6 +78,10 @@
                 <div class="combo">
                     <input type="hidden" name="section" value="registro">
                     <input class="btn" type="submit" value="ENVIAR">
+                </div>
+                <div class="combo check">
+                    <input type="checkbox" name="novedades"><label class="observacion">Deseo recibir información sobre promociones especiales, nuevos productos y otras comunicaciones de Colgate.</label>
+                    <div class="clear"></div>
                 </div>
             </form>
         </div>
