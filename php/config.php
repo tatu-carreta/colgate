@@ -18,10 +18,10 @@ $proyecto = "COLGATE";
 if (!$localhost) {
 
     switch ($_SERVER['HTTP_HOST']) {
-        case "http://laurachuburu.com.ar/jor/colgate/":
+        case "laurachuburu.com.ar":
             define("URL_TOTAL", "http://laurachuburu.com.ar/jor/colgate/");
             break;
-        case "http://www.laurachuburu.com.ar/jor/colgate/":
+        case "www.laurachuburu.com.ar":
             define("URL_TOTAL", "http://www.laurachuburu.com.ar/jor/colgate/");
             break;
     }
