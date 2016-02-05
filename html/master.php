@@ -2,7 +2,7 @@
 require_once (__DIR__) . '/../php/config.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <title>Colgate</title>
         <meta charset="utf-8">
