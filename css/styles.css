@@ -78,8 +78,10 @@ button:focus, input:focus {outline: 0}
 .ancho40 {width: 40%; display: inline-block;}
 .ancho20 {width: 18%; display: inline-block;}
 .combo {margin-bottom: 20px;}
-.masEan {font-size: 30px !important; padding: 0 10px !important; vertical-align: middle;}
-.observacion {font-size: 0.8em}
+.masEan {font-size: 30px !important; padding: 0 10px !important; vertical-align: top; margin-left: 10px}
+.ean {margin-bottom: 20px}
+.observacion {font-size: 0.8em;position: relative; top: -8px; left: 5px;}
+.observacion2 {font-size: 0.8em;}
 
 .check {}
 .check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: -2px}

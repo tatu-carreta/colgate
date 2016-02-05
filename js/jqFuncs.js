@@ -50,7 +50,7 @@ $(function () {
         if (cantProds < 10)
         {
             //$('#masProd').append('<input type="text" name="prods[]" class="num ancho60" required="true">');
-            $('.masEan').before('<input type="text" name="prods[]" class="num ancho60">');
+            $('.masEan').before('<input type="text" name="prods[]" class="num ancho60 ean">');
             cantProds++;
         }
     });
