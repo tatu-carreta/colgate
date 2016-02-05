@@ -5,7 +5,7 @@ require_once (__DIR__) . '/../php/config.php';
 <html>
     <head>
         <title>Colgate</title>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
 
