@@ -80,7 +80,7 @@
                     <input class="btn" type="submit" value="ENVIAR">
                 </div>
                 <div class="combo check">
-                    <input id="nov" type="checkbox" name="novedades" value="T" checked="true"><label class="observacion2" for="nov">Deseo recibir información sobre promociones especiales, nuevos productos y otras comunicaciones de Colgate.</label>
+                    <input id="nov" type="checkbox" name="novedades" value="T" checked=""><label class="observacion2" for="nov">Deseo recibir información sobre promociones especiales, nuevos productos y otras comunicaciones de Colgate.</label>
                     <div class="clear"></div>
                 </div>
             </form>
