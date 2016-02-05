@@ -1,15 +1,15 @@
 
 
-jQuery.fn.slideFadeToggle = function(speed, easing, callback) {
-  return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);  
+jQuery.fn.slideFadeToggle = function (speed, easing, callback) {
+    return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
 };
 
 
 
 $(function () {
     $('.btnProd').click(function () {
-        $('.prodContent').load('productos/' + $(this).attr('data'), function(){
-            $(this).fadeIn('slow'); 
+        $('.prodContent').load('productos/' + $(this).attr('data'), function () {
+            $(this).fadeIn('slow');
         });
     });
 });
@@ -28,13 +28,13 @@ $(function () {
     });
 });
 
-$(function(){
-    $('.prodImg').hover(function(){
+$(function () {
+    $('.prodImg').hover(function () {
         $('.globoProd').toggle();
     });
-    $('.globoProd').hover(function(){
+    $('.globoProd').hover(function () {
         $('.globoProd').show();
-    }, function(){
+    }, function () {
         $('.globoProd').hide();
     });
 });
@@ -43,6 +43,14 @@ $(function(){
 /*
  * FUNCIONES DEL FORMULARIO
  */
+function ShowLoading() {
+    $("#divLoading").show();
+    return true;
+    // These 2 lines cancel form submission, so only use if needed.
+    //window.event.cancelBubble = true;
+    //e.stopPropagation();
+}
+
 
 $(function () {
     var cantProds = 1;
@@ -158,7 +166,11 @@ function f_submit_replace(form, validar, path_replace) {
             url: post_url,
             data: post_data,
             dataType: "json",
+            beforeSend: function (xhr) {
+                ShowLoading();
+            },
             success: function (registro) {
+                $('#divLoading').hide();
                 alert(registro.texto);
                 if (registro.estado)
                 {
