@@ -1,12 +1,22 @@
+
+
+jQuery.fn.slideFadeToggle = function(speed, easing, callback) {
+  return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);  
+};
+
+
+
 $(function () {
     $('.btnProd').click(function () {
-        $('.prodContent').load('productos/' + $(this).attr('data'));
+        $('.prodContent').load('productos/' + $(this).attr('data'), function(){
+            $(this).fadeIn('slow'); 
+        });
     });
 });
 
 $(function () {
     $('#abreBases').click(function () {
-        $('#masBases').toggle();
+        $('#masBases').slideFadeToggle();
         if ($(this).text() == 'LEER MENOS')
         {
             $(this).text('LEER MÁS');
@@ -15,6 +25,17 @@ $(function () {
         {
             $(this).text('LEER MENOS');
         }
+    });
+});
+
+$(function(){
+    $('.prodImg').hover(function(){
+        $('.globoProd').toggle();
+    });
+    $('.globoProd').hover(function(){
+        $('.globoProd').show();
+    }, function(){
+        $('.globoProd').hide();
     });
 });
 

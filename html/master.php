@@ -56,6 +56,7 @@ require_once (__DIR__) . '/../php/config.php';
         <script>
             $(document).ready(function () {
                 $('#masBases').hide();
+                $('.globoProd').hide();
             });
         </script>
         <script src="<?php echo PATH_JS ?>jqFuncs.js"></script>

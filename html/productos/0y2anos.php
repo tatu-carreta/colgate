@@ -13,3 +13,5 @@
         <li>Mango anti-deslizante que se adapta a la mano del niño y padre para el cepillado.</li>
     </ul>
 </div>
+
+<script src="../js/jqProds.js"></script>

@@ -20,3 +20,5 @@
         <li>Cantidad adecuada de fluoruro para los niños.</li>
     </ul>
 </div>
+
+<script src="../js/jqProds.js"></script>

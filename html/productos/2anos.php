@@ -15,3 +15,5 @@ hacer la rutina siempre divertida.</p>
         <li>Formato anatómico.</li>
     </ul>
 </div>
+
+<script src="../js/jqProds.js"></script>

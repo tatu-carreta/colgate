@@ -19,7 +19,7 @@
 
             <p>1.1	Podrán participar de la Promoción las personas físicas, capaces, mayores de dieciocho (18) años y domiciliadas en la República Argentina, excepto en las provincias de Córdoba, Mendoza y Misiones, que durante el Plazo de Vigencia de la Promoción: (a) adquieran en supermercados, farmacias, kioscos, autoservicios y todo otro punto de venta dentro de la República Argentina (excepto las provincias de Córdoba, Mendoza y Misiones) (en adelante, los "Puntos de Venta"), cualquiera de los siguientes productos (i) Crema Dental Colgate Spiderman 5+años 75ml; (ii) Crema Dental Colgate Gel Smiles Bob Esponja 5+años 75ml; (iii) Crema Dental Colgate Gel Smiles Barbie 5+años 75ml; (iv) Crema Dental Colgate Kids Smiles 2-5 años 75ml; (v) Cepillo dental Colgate Kids Princesas; (vi) Cepillo Dental Colgate Kids Deportes; (vii) Cepillo Dental Kids 2+años Dr Rabbit; (viii) Cepillo Dental Colgate Smiles 0-2 años; (ix) Cepillo Dental Colgate Smiles 2-5 años; (x) Cepillo Dental Colgate Smiles 5+ años Spiderman; (xi) Enjuague Bucal Colgate Plax Bob Esponja Niños 250ml; (xii) Enjuague Bucal Colgate Plax Niños Magico 6+años  250ml (el/los “Producto/s Participante/s”) e ingresen los códigos de barra de los Productos Participantes adquiridos en la página web que el Organizador ha creado a tal fin (http://www.volviendoalcole.com.ar) (en adelante, la "Página Web del Organizador") siguiendo el procedimiento detallado en la Cláusula Segunda de estas Bases y Condiciones; o (b) participen mediante el mecanismo alternativo de participación previsto en la Cláusula Tercera de estas Bases y Condiciones. </p>
 
-            <p>1.2	No podrán participar de esta Promoción aquellas personas que no cumplan con todos los requisitos establecidos en la Cláusula 1.1. Tampoco podrán participar los empleados o directivos del Organizador independientemente de la jerarquía que tuvieran, ni sus parientes consanguíneos o afines hasta el segundo grado inclusive. Misma prohibición aplicará para los empleados directos de los Puntos de Venta de los Productos Participantes y para los proveedores de cualquiera de éstos que estuviesen relacionados con esta Promoción, ni los parientes consanguíneos o afines en línea recta de tales empleados y directivos, hasta el segundo grado inclusive.</p>
+            <p style="margin-bottom: 0">1.2	No podrán participar de esta Promoción aquellas personas que no cumplan con todos los requisitos establecidos en la Cláusula 1.1. Tampoco podrán participar los empleados o directivos del Organizador independientemente de la jerarquía que tuvieran, ni sus parientes consanguíneos o afines hasta el segundo grado inclusive. Misma prohibición aplicará para los empleados directos de los Puntos de Venta de los Productos Participantes y para los proveedores de cualquiera de éstos que estuviesen relacionados con esta Promoción, ni los parientes consanguíneos o afines en línea recta de tales empleados y directivos, hasta el segundo grado inclusive.</p>
 
             <div id="masBases">
                 <h4>CLÁUSULA SEGUNDA</h4>
@@ -98,7 +98,7 @@
                 </p>
             </div>
 
-            <a class="btn" id="abreBases">LEER MÁS</a>
+            <a class="btn" id="abreBases" style="margin-top: 20px">LEER MÁS</a>
         </div>
         <div class="clear"></div>
     </div>
