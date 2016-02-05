@@ -26,6 +26,10 @@ if (!$localhost) {
             break;
     }
 
+    define("DB_USER", "laura1_colgate");
+    define("DB_PASS", "Colgate_05");
+    define("DB_HOST", "localhost");
+    define("DB_SELECTED", "laura1_colgate");
 
 } else {
 

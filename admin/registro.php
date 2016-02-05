@@ -24,6 +24,12 @@ if ($infoValidate['estado']) {
     $telefono = $codTel . " - " . $numTel;
     $correo = sanearDatos($_POST['correo']);
 
+    if (isset($_POST['novedades']) && ($_POST['novedades'] == 'T')) {
+        $recibir = 'S';
+    } else {
+        $recibir = 'N';
+    }
+
     $productos = array();
     foreach ($_POST['prods'] as $prods) {
         if (sanearDatos($prods) != "") {
@@ -43,7 +49,7 @@ if ($infoValidate['estado']) {
         if (!$cantidadRegistrados['estado']) {
             $cantidadRegistrados['cantidad'] = 0;
         }
-        
+
         if (($cantidadRegistrados['cantidad'] + count($productos)) > 10) {
             $registrar = false;
             $cantidadQuedan = (10 - $cantidadRegistrados['cantidad']);
@@ -59,7 +65,8 @@ if ($infoValidate['estado']) {
                 'provincia' => $prov,
                 'telefono' => $telefono,
                 'correo' => $correo,
-                'productos' => $productos
+                'productos' => $productos,
+                'recibir' => $recibir
             );
 
             $estadoAgregacion = realizarAgregacionRegistro($data_registro);
