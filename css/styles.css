@@ -90,7 +90,7 @@ button:focus, input:focus {outline: 0}
 .prodContent h3 {margin-bottom: 0.1em; font-size: 1.3em}
 .prodContent h3+p {margin-top: 0; margin-bottom: 3em}
 .prodImg {text-align: center; width: 600px}
-.globoProd {position: absolute;}
+.globoProd {position: absolute; display: none}
 .globoProd h2 {font-size: 20px; font-weight: 600; margin: 0}
 .globoProd ul {padding-left: 15px}
 .edad {color: #e2002c; font-weight: 600; font-size: 18px; margin-top: 5px}
@@ -110,13 +110,13 @@ button:focus, input:focus {outline: 0}
 	.globoProd .ul25 li {list-style-image: url(../images/punto25.svg);}
 	/* 5 */
 	.prodContent h3.t5, .globoProd.gl5a h2, .globoProd.gl5b h2 {color: #a778af}
-	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 322px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 45px 100px 0 60px;}
-	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 426px; box-sizing:border-box; bottom:0px; right:280px; padding: 50px 120px 0 70px;}
+	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 322px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 40px 100px 0 70px;}
+	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 426px; box-sizing:border-box; bottom:60px; right:-50px; padding: 75px 45px 0 155px;}
 	.globoProd .ul5 li {list-style-image: url(../images/punto5.svg);}
 	/* 6 */
-	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #f2a100}
-	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 418px; height: 352px; box-sizing:border-box; bottom:10px; left:-160px; padding: 50px 120px 0 70px;}
-	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 446px; height: 378px; box-sizing:border-box; bottom:0px; left:280px; padding: 50px 120px 0 70px;}
+	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #5f147d}
+	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 412px; height: 355px; box-sizing:border-box; bottom:-90px; left:-320px; padding: 40px 110px 0 70px;}
+	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 313px; box-sizing:border-box; bottom:50px; right: 0; padding: 65px 45px 0 125px;}
 	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
 
 .btn.linkColgate {margin-right: -20px !important}
