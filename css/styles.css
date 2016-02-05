@@ -18,9 +18,12 @@ nav { }
 nav a{position: absolute; display: block}
 nav span {display: none}
 nav.menuPc {background: url(../images/poste.png) no-repeat top center; position: absolute; height: 489px; width: 450px; right: 0; top:120px;}
-nav.menuPc .prod {background: url(../images/btn-productos.png) no-repeat; width: 253px ; height: 153px; top:200px; left:225px;}
-nav.menuPc .bases {background: url(../images/btn-bases.png) no-repeat; width: 249px ; height: 105px; top:50px; left:225px;} 
-nav.menuPc .reg {background: url(../images/btn-registrate.png) no-repeat; width: 254px ; height: 113px; top:120px; left:17px;}
+nav.menuPc .prod {background: url(../images/btn-productos.png) no-repeat; background-size: 100%; width: 253px ; height: 153px; top:200px; left:225px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;}
+nav.menuPc .prod:hover {width: 280px ; height: 170px; }
+nav.menuPc .bases {background: url(../images/btn-bases.png) no-repeat; background-size: 100%; width: 249px ; height: 105px; top:50px; left:225px;transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;} 
+nav.menuPc .bases:hover {width: 280px ; height: 170px;}
+nav.menuPc .reg {background: url(../images/btn-registrate.png) no-repeat; background-size: 100%; width: 254px ; height: 113px; top:120px; left:17px;transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;}
+nav.menuPc .reg:hover {width: 280px ; height: 170px; position: relative; left:-10px;}
 
 nav.menuResponsive {display: none}
 nav.menuResponsive a {width: 187px ; height: 89px; }
@@ -38,8 +41,8 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 #bases, #productos {padding-top: 80px}
 #productos .container, #registro .container {height: 100%; padding-top: 10px;} 
 #bases {min-height: 700px}
-.colMenu {width: 327px; float: left}
-.colContent {margin-left: 327px}
+.colMenu {width: 327px; float: left; position: relative; z-index: 100}
+.colContent {margin-left: 327px;position: relative; z-index: 100}
 .divDivisor {margin-top: 3em}
 .divDivisor img {width: 100%; height: auto}
 
@@ -133,5 +136,5 @@ footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
 /* Botones */
 .btn {background: #ffde3d; border: none; color: #e2002c; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px; cursor: pointer;}
 
-input[type="text"], input[type="email"] {border:2px solid red; display: inline-block; padding:0 15px; border-radius: 17px; text-transform: uppercase; font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
-input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
+input[type="text"], input[type="email"] {border:2px solid red; display: inline-block; padding:0 15px; border-radius: 17px; text- font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
+input[type="submit"] {font-family: 'Roboto Condensed', sans-serif; }

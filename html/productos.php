@@ -1,6 +1,7 @@
 <!-- Section PRODUCTOS -->
 <section id="productos">
     <div class="container">
+        <div class="papelitosHome" style="z-index:0"><img src="<?php echo PATH_IMAGES; ?>papelitos-home.gif" alt="Viví con Colgate la mejor vuelta al cole"></div>
         <div class="colMenu">
             <ul class="menuProd">
                 <li><a href="#productos" class="prod-lateral-gr"><span>Productos</span></a></li>
