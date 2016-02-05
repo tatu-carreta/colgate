@@ -62,7 +62,7 @@ ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size:
 
 /* Menúes Productos por Edades */
 .menuEdad li {display: inline-block;}
-.menuEdad button {display: block; width: 82px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; margin: 5px; background: transparent; cursor: pointer;}
+.menuEdad button {display: block; width: 82px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; margin: 5px; background: transparent;border: 0; cursor: pointer;}
 .menuEdad button:hover {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5);}
 .menuEdad button span {display: block}
 button:focus, input:focus {outline: 0}
@@ -94,6 +94,7 @@ button:focus, input:focus {outline: 0}
 .globoProd h2 {font-size: 20px; font-weight: 600; margin: 0}
 .globoProd ul {padding-left: 15px}
 .edad {color: #e2002c; font-weight: 600; font-size: 18px; margin-top: 5px}
+.edadSm {color: #e2002c; font-weight: 600; font-size: 18px;margin: 0; }
 	/* 02 */
 	.prodContent h3.t02, .globoProd.gl02 h2 {color: #98cb4f}
 	.globoProd.gl02 {background: url(../images/globo02.svg) no-repeat; background-size: cover; width: 446px; height: 378px; box-sizing:border-box; bottom:0; left:280px; padding: 30px 50px 0 130px;}
@@ -102,6 +103,21 @@ button:focus, input:focus {outline: 0}
 	.prodContent h3.t2, .globoProd.gl2 h2 {color: #e1a900}
 	.globoProd.gl2 {background: url(../images/globo2.svg) no-repeat; background-size: cover; width: 418px; height: 352px; box-sizing:border-box; bottom:10px; left:-160px; padding: 50px 120px 0 70px;}
 	.globoProd .ul2 li {list-style-image: url(../images/punto2.svg);}
+	/* 25 */
+	.prodContent h3.t25, .globoProd.gl25a h2, .globoProd.gl25b h2 {color: #f2a100}
+	.globoProd.gl25a {background: url(../images/globo25-a.svg) no-repeat; background-size: cover; width: 364px; height: 313px; box-sizing:border-box; bottom:-10px; left:-230px; padding: 50px 95px 0 65px;}
+	.globoProd.gl25b {background: url(../images/globo25-b.svg) no-repeat; background-size: cover; width: 440px; height: 388px; box-sizing:border-box; bottom:50px; right:-50px; padding: 50px 50px 0 140px;}
+	.globoProd .ul25 li {list-style-image: url(../images/punto25.svg);}
+	/* 5 */
+	.prodContent h3.t5, .globoProd.gl5a h2, .globoProd.gl5b h2 {color: #a778af}
+	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 322px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 45px 100px 0 60px;}
+	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 426px; box-sizing:border-box; bottom:0px; right:280px; padding: 50px 120px 0 70px;}
+	.globoProd .ul5 li {list-style-image: url(../images/punto5.svg);}
+	/* 6 */
+	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #f2a100}
+	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 418px; height: 352px; box-sizing:border-box; bottom:10px; left:-160px; padding: 50px 120px 0 70px;}
+	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 446px; height: 378px; box-sizing:border-box; bottom:0px; left:280px; padding: 50px 120px 0 70px;}
+	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
 
 .btn.linkColgate {margin-right: -20px !important}
 .logoColgate {position: relative; top:5px; left: 5px}
