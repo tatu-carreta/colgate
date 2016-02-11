@@ -72,7 +72,7 @@
                     <input id="ean" type="text" name="prods[]" class="num ancho60 ean" required=""> 
                     <!--<input type="text" name="ean" id="ean" class="ancho60">-->
                     <!--<div id="masProd"></div>-->
-                    <button type="button" class="btn masEan">+<span>Agregar más códigos</span></button>
+                    <button type="button" class="masEan"><span>Agregar más códigos</span></button>
                     <span class="observacion">Podés cargar hasta 10 productos</span>
                 </div>
                 <div class="combo">

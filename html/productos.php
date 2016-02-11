@@ -34,7 +34,7 @@
                     </ul>
                 </div>
             </div>
-            <a class="btn linkColgate" href="">Conocé la línea completa de productos <img class="logoColgate" src="<?php echo PATH_IMAGES; ?>colgate.png" alt="Colgate"></a>
+            <a class="btn linkColgate" href="http://www.colgate.com.ar/es/ar/oc/products" target="_blank">Conocé la línea completa de productos <img class="logoColgate" src="<?php echo PATH_IMAGES; ?>colgate.png" alt="Colgate"></a>
         </div>
         <div class="clear"></div>
     </div>

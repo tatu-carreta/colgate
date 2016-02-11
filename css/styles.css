@@ -9,7 +9,7 @@ button span {display: none;}
 h1 { max-width: 860px; height: 113px; margin:15px auto 0;}/*background: url(../images/vuelta-al-cole-con-Colgate.png) no-repeat;*/
 h1 img {width: 100%; height: auto}
 
-h2.presentacion {color: #fff; font-size: 38px; font-weight: 400; width: 37%; margin-top: -30px; margin-left: 30px}
+h2.presentacion {color: #fff; font-size: 46px; line-height: 46px; font-weight: 400; width: 43%; margin-top: -30px; margin-left: 30px}
 h2.presentacion span {color: #ffde3d}
 h2.presentacion span.r {font-size: 28px; position: relative; top:-5px; color:#fff;}
 
@@ -33,6 +33,7 @@ nav.menuResponsive .prod {background: url(../images/btn-productos-cel.png) no-re
 nav.menuResponsive .prod:hover {background: url(../images/btn-productos-cel-hover.png) no-repeat; }
 nav.menuResponsive .bases {background: url(../images/btn-bases-cel.png) no-repeat; left:205px; z-index: 15} 
 nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.png) no-repeat;
+
 
 } 
 
@@ -65,7 +66,7 @@ ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size:
 
 /* Menúes Productos por Edades */
 .menuEdad li {display: inline-block;}
-.menuEdad button {display: block; width: 82px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; margin: 5px; background: transparent;border: 0; cursor: pointer;}
+.menuEdad button {display: block; width: 90px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; background: transparent;border: 0; cursor: pointer;}
 .menuEdad button:hover {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5);}
 .menuEdad button span {display: block}
 button:focus, input:focus {outline: 0}
@@ -78,9 +79,9 @@ button:focus, input:focus {outline: 0}
 .ancho40 {width: 40%; display: inline-block;}
 .ancho20 {width: 18%; display: inline-block;}
 .combo {margin-bottom: 20px;}
-.masEan {font-size: 30px !important; padding: 0 10px !important; vertical-align: top; margin-left: 10px}
+.masEan {background: url(../images/mas.png) no-repeat; width: 36px; height: 36px; border: 0; margin-left: 10px; margin-right: 5px; cursor: pointer}
 .ean {margin-bottom: 20px}
-.observacion {font-size: 0.8em;position: relative; top: -8px; left: 5px;}
+.observacion {font-size: 0.8em;position: relative; top: -12px; left: 5px;}
 .observacion2 {font-size: 0.8em;}
 
 .check {}
@@ -95,7 +96,7 @@ button:focus, input:focus {outline: 0}
 .prodContent h3 {margin-bottom: 0.1em; font-size: 1.3em}
 .prodContent h3+p {margin-top: 0; margin-bottom: 3em}
 .prodImg {text-align: center; width: 600px}
-.globoProd {position: absolute; display: none}
+.globoProd {position: absolute; }
 .globoProd h2 {font-size: 20px; font-weight: 600; margin: 0}
 .globoProd ul {padding-left: 15px}
 .edad {color: #e2002c; font-weight: 600; font-size: 18px; margin-top: 5px}
@@ -106,22 +107,22 @@ button:focus, input:focus {outline: 0}
 	.globoProd .ul02 li {list-style-image: url(../images/punto02.svg);}
 	/* 2+ */
 	.prodContent h3.t2, .globoProd.gl2 h2 {color: #e1a900}
-	.globoProd.gl2 {background: url(../images/globo2.svg) no-repeat; background-size: cover; width: 418px; height: 352px; box-sizing:border-box; bottom:10px; left:-160px; padding: 50px 120px 0 70px;}
+	.globoProd.gl2 {background: url(../images/globo2.svg) no-repeat; background-size: cover; width: 418px; height: 359px; box-sizing:border-box; bottom:10px; left:-160px; padding: 60px 125px 0 70px;}
 	.globoProd .ul2 li {list-style-image: url(../images/punto2.svg);}
 	/* 25 */
 	.prodContent h3.t25, .globoProd.gl25a h2, .globoProd.gl25b h2 {color: #f2a100}
 	.globoProd.gl25a {background: url(../images/globo25-a.svg) no-repeat; background-size: cover; width: 364px; height: 313px; box-sizing:border-box; bottom:-10px; left:-230px; padding: 50px 95px 0 65px;}
-	.globoProd.gl25b {background: url(../images/globo25-b.svg) no-repeat; background-size: cover; width: 440px; height: 396px; box-sizing:border-box; bottom:50px; right:-50px; padding: 50px 50px 0 140px;}
+	.globoProd.gl25b {background: url(../images/globo25-b.svg) no-repeat; background-size: cover; width: 440px; height: 396px; box-sizing:border-box; bottom:50px; right:-50px; padding: 65px 50px 0 140px;}
 	.globoProd .ul25 li {list-style-image: url(../images/punto25.svg);}
 	/* 5 */
 	.prodContent h3.t5, .globoProd.gl5a h2, .globoProd.gl5b h2 {color: #a778af}
-	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 325px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 40px 100px 0 70px;}
-	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 430px; box-sizing:border-box; bottom:60px; right:-50px; padding: 75px 45px 0 155px;}
+	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 325px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 45px 110px 0 70px;}
+	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 430px; box-sizing:border-box; bottom:60px; right:-50px; padding: 85px 45px 0 155px;}
 	.globoProd .ul5 li {list-style-image: url(../images/punto5.svg);}
 	/* 6 */
 	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #5f147d}
-	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 412px; height: 355px; box-sizing:border-box; bottom:-90px; left:-320px; padding: 40px 110px 0 70px;}
-	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 320px; box-sizing:border-box; bottom:50px; right: 0; padding: 65px 45px 0 125px;}
+	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 412px; height: 355px; box-sizing:border-box; bottom:-90px; left:-320px; padding: 55px 110px 0 70px;}
+	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 320px; box-sizing:border-box; bottom:50px; right: 0; padding: 90px 45px 0 125px;}
 	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
 
 .btn.linkColgate {margin-right: -20px !important}
@@ -139,12 +140,13 @@ footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
 .btn {background: #ffde3d; border: none; color: #e2002c; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px; cursor: pointer;}
 
 input[type="text"], input[type="email"] {border:2px solid red; display: inline-block; padding:0 15px; border-radius: 17px; text- font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
-input[type="submit"] {font-family: 'Roboto Condensed', sans-serif; }
+input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 
+.scrollUp{ width:60px; height:60px; opacity:0.9; position:fixed; bottom:20px; right:25px; display:none; background: url(../images/up.png) no-repeat; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%;}
 
 /*
     DIV LOADING
 */
 #divLoading {display: none; position: fixed; top: 0; left: 0; z-index: 5000; width: 100%; height: 100%; text-align: center; background: rgba(255,255,255,0.7);}
 #divLoading img {position: absolute; top: 50%; left:50%; margin-top: -24px; margin-left: -24px}
-#divLoading p {position: absolute; top:40%; width: 100%; font-size: 1.6em; }
+#divLoading p {position: absolute; top:40%; width: 100%; font-size: 1.6em;}

@@ -37,6 +37,23 @@ require_once (__DIR__) . '/../php/config.php';
                 });
             });
         </script>
+
+        <!-- Botón UP -->
+        <script>
+            $(window).scroll(function(){
+                    if ($(this).scrollTop() > 500) {
+                        $('.scrollUp').fadeIn();
+                    } else {
+                        $('.scrollUp').fadeOut();
+                    }
+            });
+            $(document).ready(function(){
+                 $('.scrollUp').click(function(){
+                     $("html, body").animate({ scrollTop: 0 }, 600);
+                     return false;
+                 });
+            })
+        </script>
     </head>
     <body>
         <?php
@@ -47,11 +64,14 @@ require_once (__DIR__) . '/../php/config.php';
         require_once (__DIR__) . '/bases.php';
         
         ?>
+
         <!-- FOOTER -->
         <footer>
-            <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
-            <p class="brand"> <a href="http://www.colgatepalmolive.com.ar"></a> </p>
+            <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
+            <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
         </footer>
+
+        <a href="#" class="scrollUp"></a>
         
         <div id="divLoading">
             <img width="48" height="48" src="<?php echo PATH_IMAGES; ?>loading.gif">

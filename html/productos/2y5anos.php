@@ -15,8 +15,8 @@
 </div>
 
 <div class="globoProd gl25b">
-    <h2>Cepillo dental Colgate® Smiles</h2>
-    <p class="edadSm">2 - 5 años</p>
+    <h2>Cepillo dental Colgate® Smiles <span class="edad">2 - 5 años</span></h2>
+    
     <h2 style="margin-bottom:5px">Barbie - Bob Esponja</h2>
     <ul class="ul25">
         <li>Cerdas extra suaves en varios niveles que alcanzan todos los dientes, incluyendo las muelas difíciles de alcanzar.</li>

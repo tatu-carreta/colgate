@@ -5,8 +5,8 @@
 </div>
 <div class="globoProd gl5a">
     <h2>Cepillo dental Colgate®<br>
-	Princess - Sports</h2>
-    <p class="edad">+5 años</p>
+	Princess - Sports<br>
+    <span class="edad">+5 años</span></h2>
     <ul class="ul5">
         <li>Cabeza ovalada pequeña que protege las encías.</li>
         <li>Cerdas extra suaves que proporcionan una limpieza real de varios niveles de los dientes, grandes o pequeños.</li>
