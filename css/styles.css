@@ -102,7 +102,7 @@ button:focus, input:focus {outline: 0}
 .edadSm {color: #e2002c; font-weight: 600; font-size: 18px;margin: 0; }
 	/* 02 */
 	.prodContent h3.t02, .globoProd.gl02 h2 {color: #98cb4f}
-	.globoProd.gl02 {background: url(../images/globo02.svg) no-repeat; background-size: cover; width: 446px; height: 378px; box-sizing:border-box; bottom:0; left:280px; padding: 30px 50px 0 130px;}
+	.globoProd.gl02 {background: url(../images/globo02.svg) no-repeat; background-size: cover; width: 446px; height: 381px; box-sizing:border-box; bottom:0; left:280px; padding: 30px 50px 0 130px;}
 	.globoProd .ul02 li {list-style-image: url(../images/punto02.svg);}
 	/* 2+ */
 	.prodContent h3.t2, .globoProd.gl2 h2 {color: #e1a900}
@@ -111,17 +111,17 @@ button:focus, input:focus {outline: 0}
 	/* 25 */
 	.prodContent h3.t25, .globoProd.gl25a h2, .globoProd.gl25b h2 {color: #f2a100}
 	.globoProd.gl25a {background: url(../images/globo25-a.svg) no-repeat; background-size: cover; width: 364px; height: 313px; box-sizing:border-box; bottom:-10px; left:-230px; padding: 50px 95px 0 65px;}
-	.globoProd.gl25b {background: url(../images/globo25-b.svg) no-repeat; background-size: cover; width: 440px; height: 388px; box-sizing:border-box; bottom:50px; right:-50px; padding: 50px 50px 0 140px;}
+	.globoProd.gl25b {background: url(../images/globo25-b.svg) no-repeat; background-size: cover; width: 440px; height: 396px; box-sizing:border-box; bottom:50px; right:-50px; padding: 50px 50px 0 140px;}
 	.globoProd .ul25 li {list-style-image: url(../images/punto25.svg);}
 	/* 5 */
 	.prodContent h3.t5, .globoProd.gl5a h2, .globoProd.gl5b h2 {color: #a778af}
-	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 322px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 40px 100px 0 70px;}
-	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 426px; box-sizing:border-box; bottom:60px; right:-50px; padding: 75px 45px 0 155px;}
+	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 325px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 40px 100px 0 70px;}
+	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 430px; box-sizing:border-box; bottom:60px; right:-50px; padding: 75px 45px 0 155px;}
 	.globoProd .ul5 li {list-style-image: url(../images/punto5.svg);}
 	/* 6 */
 	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #5f147d}
 	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 412px; height: 355px; box-sizing:border-box; bottom:-90px; left:-320px; padding: 40px 110px 0 70px;}
-	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 313px; box-sizing:border-box; bottom:50px; right: 0; padding: 65px 45px 0 125px;}
+	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 320px; box-sizing:border-box; bottom:50px; right: 0; padding: 65px 45px 0 125px;}
 	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
 
 .btn.linkColgate {margin-right: -20px !important}
