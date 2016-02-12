@@ -6,10 +6,10 @@ a {text-decoration: none;}
 button span {display: none;}
 .clear {clear: both;}
 
-h1 { max-width: 860px; height: 113px; margin:15px auto 0;}/*background: url(../images/vuelta-al-cole-con-Colgate.png) no-repeat;*/
+h1 { max-width: 860px; height: 113px; margin:15px auto 0; position: relative; z-index: 999;}
 h1 img {width: 100%; height: auto}
 
-h2.presentacion {color: #fff; font-size: 46px; line-height: 46px; font-weight: 400; width: 43%; margin-top: -30px; margin-left: 30px}
+h2.presentacion {color: #fff; font-size: 46px; line-height: 46px; font-weight: 400; width: 43%; margin: 0 0 0 30px; position: relative; top:-100px;}
 h2.presentacion span {color: #ffde3d}
 h2.presentacion span.r {font-size: 28px; position: relative; top:-5px; color:#fff;}
 
@@ -17,12 +17,12 @@ h2.presentacion span.r {font-size: 28px; position: relative; top:-5px; color:#ff
 nav { }
 nav a{position: absolute; display: block}
 nav span {display: none}
-nav.menuPc {background: url(../images/poste.png) no-repeat top center; position: absolute; height: 489px; width: 450px; right: 0; top:120px;}
+nav.menuPc {background: url(../images/poste.png) no-repeat top center; position: absolute; height: 489px; width: 450px; right: 0; top:90px;}
 nav.menuPc .prod {background: url(../images/btn-productos.png) no-repeat; background-size: 100%; width: 253px ; height: 153px; top:200px; left:225px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;}
 nav.menuPc .prod:hover {width: 280px ; height: 170px; }
 nav.menuPc .bases {background: url(../images/btn-bases.png) no-repeat; background-size: 100%; width: 249px ; height: 105px; top:50px; left:225px;transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;} 
 nav.menuPc .bases:hover {width: 280px ; height: 170px;}
-nav.menuPc .reg {background: url(../images/btn-registrate.png) no-repeat; background-size: 100%; width: 254px ; height: 113px; top:120px; left:17px;transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;}
+nav.menuPc .reg {background: url(../images/btn-registrate.png) no-repeat; background-size: 100%; width: 254px ; height: 113px; top:120px; left:17px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;}
 nav.menuPc .reg:hover {width: 280px ; height: 170px; position: relative; left:-10px;}
 
 nav.menuResponsive {display: none}
@@ -47,8 +47,9 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 .divDivisor {margin-top: 3em}
 .divDivisor img {width: 100%; height: auto}
 
-.microGde {background: url(../images/sombra.png) no-repeat; width: 875px; height: 532px; position: relative; left:0; }
-.premiosGde {width: 605px; height: 307px; position: absolute; right: 0; top:500px;}
+.microGde {background: url(../images/sombra.png) no-repeat; background-size: 100%; width: 850px;  position: relative; left:-40px; top:-30px;}/*height: 532px;*/
+.microGde img, .premiosGde img {width: 100%; height: auto}
+.premiosGde {width: 605px; height: 307px; position: absolute; right: -20px; bottom: 80px;}
 .papelitosHome {width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
 .papelitosRegistro {width: 1200px; height: 458px; position: absolute; bottom: 0; left: 0; transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);}
 
@@ -151,3 +152,24 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 #divLoading {display: none; position: fixed; top: 0; left: 0; z-index: 5000; width: 100%; height: 100%; text-align: center; background: rgba(255,255,255,0.7);}
 #divLoading img {position: absolute; top: 50%; left:50%; margin-top: -24px; margin-left: -24px}
 #divLoading p {position: absolute; top:40%; width: 100%; font-size: 1.6em;}
+
+
+/* M E D I A  Q U E R Y */
+
+@media screen and (max-width: 1300px){
+	.premiosGde {width: 500px; right: 0; bottom: 40px;}
+	h2.presentacion {font-size: 42px; line-height: 42px; margin: 0 0 0 30px;}
+}
+
+@media screen and (max-width: 1200px){
+	.microGde {width: 800px; left:-40px; top:0; }
+}
+
+@media screen and (max-width: 1100px){
+	body{background: url(../images/bg-body2.jpg) no-repeat 50% -60px;}
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px){
+	nav.menuPc {display: none;}
+	nav.menuResponsive {display: block;}
+}
