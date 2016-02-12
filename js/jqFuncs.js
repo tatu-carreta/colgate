@@ -28,16 +28,16 @@ $(function () {
     });
 });
 
-$(function () {
-    $('.prodImg').hover(function () {
-        $('.globoProd').toggle();
-    });
-    $('.globoProd').hover(function () {
-        $('.globoProd').show();
-    }, function () {
-        $('.globoProd').hide();
-    });
-});
+// $(function () {
+//     $('.prodImg').hover(function () {
+//         $('.globoProd').toggle();
+//     });
+//     $('.globoProd').hover(function () {
+//         $('.globoProd').show();
+//     }, function () {
+//         $('.globoProd').hide();
+//     });
+// });
 
 
 /*

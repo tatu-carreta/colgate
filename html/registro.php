@@ -1,6 +1,7 @@
 <!-- Section REGISTRO -->
 <section id="registro">
     <div class="container">
+        <div class="papelitosRegistro" style="z-index:0"><img src="<?php echo PATH_IMAGES; ?>papelitos-home.gif" alt="Viví con Colgate la mejor vuelta al cole"></div>
         <div class="colMenu">
             <ul class="menuProd">
                 <li><a href="#registro" class="reg-lateral-gr"><span>¡Registrate ahora!</span></a></li>

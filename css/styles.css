@@ -50,6 +50,7 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 .microGde {background: url(../images/sombra.png) no-repeat; width: 875px; height: 532px; position: relative; left:0; }
 .premiosGde {width: 605px; height: 307px; position: absolute; right: 0; top:500px;}
 .papelitosHome {width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
+.papelitosRegistro {width: 1200px; height: 458px; position: absolute; bottom: 0; left: 0; transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);}
 
 /* Menúes secundarios laterales */
 ul.menuProd {}
@@ -72,7 +73,7 @@ ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size:
 button:focus, input:focus {outline: 0}
 
 /* Formulario de Registro */
-.formRegistro {max-width: 600px}
+.formRegistro {max-width: 600px; margin-bottom: 100px; background: #fff}
 .formRegistro label {padding-left: 20px;}
 .ancho100 {width: 100%; display: inline-block;}
 .ancho60 {width: 60% !important; display: inline-block }
@@ -82,10 +83,10 @@ button:focus, input:focus {outline: 0}
 .masEan {background: url(../images/mas.png) no-repeat; width: 36px; height: 36px; border: 0; margin-left: 10px; margin-right: 5px; cursor: pointer}
 .ean {margin-bottom: 20px}
 .observacion {font-size: 0.8em;position: relative; top: -12px; left: 5px;}
-.observacion2 {font-size: 0.8em;}
+.observacion2 {font-size: 0.9em;}
 
 .check {}
-.check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: -2px}
+.check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: 0px}
 .check label {display: block}
 
 /* Bases y condiciones */
@@ -103,7 +104,7 @@ button:focus, input:focus {outline: 0}
 .edadSm {color: #e2002c; font-weight: 600; font-size: 18px;margin: 0; }
 	/* 02 */
 	.prodContent h3.t02, .globoProd.gl02 h2 {color: #98cb4f}
-	.globoProd.gl02 {background: url(../images/globo02.svg) no-repeat; background-size: cover; width: 446px; height: 381px; box-sizing:border-box; bottom:0; left:280px; padding: 30px 50px 0 130px;}
+	.globoProd.gl02 {background: url(../images/globo02.svg) no-repeat; background-size: cover; width: 446px; height: 381px; box-sizing:border-box; bottom:0; left:280px; padding: 50px 50px 0 140px;}
 	.globoProd .ul02 li {list-style-image: url(../images/punto02.svg);}
 	/* 2+ */
 	.prodContent h3.t2, .globoProd.gl2 h2 {color: #e1a900}
@@ -130,8 +131,8 @@ button:focus, input:focus {outline: 0}
 
 /* Footer */
 footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
-.copyright {font-size: 11px; color: #2d2d2d; letter-spacing: 0.2px;text-align: center;margin-bottom: 12px;}
-.copyright a { font-size: 11px; color: #505050; text-decoration: underline;}
+.copyright {font-size: 14px; color: #2d2d2d; letter-spacing: 0.2px;text-align: center; margin-bottom: 12px;}
+.copyright a { font-size: 14px; color: #505050; text-decoration: underline;}
 .copyright a:hover {color: #c00;}   
 .brand a { display: block; width: 220px; height: 23px; margin: 0 auto; background: url(../images/cp.png) center center; text-align: center;}
 .brand a:hover {background: url(../images/cp_hover.png) center center;}

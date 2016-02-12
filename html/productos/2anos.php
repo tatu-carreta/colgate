@@ -16,4 +16,4 @@ hacer la rutina siempre divertida.</p>
     </ul>
 </div>
 
-<script src="../js/jqProds.js"></script>
+<!-- <script src="../js/jqProds.js"></script> -->
