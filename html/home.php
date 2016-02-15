@@ -16,13 +16,5 @@
                 <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
             </ul>
         </nav>
-        <nav class="menuResponsive">
-            <ul>
-                <li><a href="#registro" class="reg"><span>¡Registrate ahora!</span></a></li>
-                <li><a href="#productos" class="prod"><span>Productos</span></a></li>
-                <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
-            </ul>
-        </nav>
-        <div class="premiosGde"><img src="<?php echo PATH_IMAGES; ?>premios.png" alt="Viví con Colgate la mejor vuelta al cole"></div>
     </div>
 </section>

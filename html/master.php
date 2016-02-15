@@ -56,6 +56,16 @@ require_once (__DIR__) . '/../php/config.php';
         </script>
     </head>
     <body>
+        <header>
+            <nav class="menuResponsive">
+                <ul>
+                    <li><a href="#registro" class="reg"><span>¡Registrate ahora!</span></a></li>
+                    <li><a href="#productos" class="prod"><span>Productos</span></a></li>
+                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+                </ul>
+            </nav>
+        </header>  
+
         <?php
         
         require_once (__DIR__) . '/home.php';
