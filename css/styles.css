@@ -6,8 +6,9 @@ a {text-decoration: none;}
 button span {display: none;}
 .clear {clear: both;}
 
-h1 { max-width: 860px; height: 113px; margin:15px auto 0; position: relative; z-index: 999;}
+h1 {max-width: 860px; height: 113px; margin:15px auto 0; position: relative; z-index: 999;}
 h1 img {width: 100%; height: auto}
+.h1mobile {display: none;}
 
 h2.presentacion {color: #fff; font-size: 46px; line-height: 46px; font-weight: 400; width: 43%; margin: 0 0 0 30px; position: relative; top:-100px;}
 h2.presentacion span {color: #ffde3d}
@@ -170,6 +171,8 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 }
 
 @media screen and (min-width: 360px) and (max-width: 480px){
+	.h1pc {display: none;}
+	.h1mobile {display: block;}
 	nav.menuPc {display: none;}
 	nav.menuResponsive {display: block;}
 }
