@@ -127,6 +127,7 @@ button:focus, input:focus {outline: 0}
 	/* 6 */
 	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #5f147d}
 	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 412px; height: 355px; box-sizing:border-box; bottom:-90px; left:-320px; padding: 55px 110px 0 70px;}
+	.globoProd.gl6a p {color:#5f147d; margin:0}
 	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 320px; box-sizing:border-box; bottom:50px; right: 0; padding: 90px 45px 0 125px;}
 	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
 
@@ -162,10 +163,11 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 
 @media screen and (max-width: 1300px){
 	body{background: url(../images/bg-body2.jpg) no-repeat 50% 15%}
-	.premiosGde {width: 40%; right: 20px; bottom: 40px;}
-	h2.presentacion {font-size: 42px; line-height: 41px; margin: 0 0 0 30px;}
+	.premiosGde {width: 40%; right: 20px; bottom: 50px;}
+	h2.presentacion {font-size: 40px; line-height: 40px; margin: 0 0 0 30px; width: 40%; top:-130px;}
 	.microGde {width: 70%; left:-40px; top:-20px; } 
 	.colContent {padding-right: 3em}
+	.masProd img{width: 80%}
 }
 
 @media screen and (max-width: 1200px){

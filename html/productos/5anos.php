@@ -1,6 +1,6 @@
 <h3 class="t5">Etapa de transición</h3>
 <p>Limpieza y protección contra las caries en la fase de transición para los dientes adultos.</p>
-<div class="prodImg">
+<div class="prodImg masProd">
     <img src="../images/productos/colgate-5.png" alt="Mi primer Colgate, para niños menores de 2 años">
 </div>
 <div class="globoProd gl5a">
