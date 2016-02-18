@@ -1,7 +1,7 @@
 <!-- Section PRODUCTOS -->
 <section id="productos">
     <div class="container">
-        <div class="papelitosHome" style="z-index:0"><img src="<?php echo PATH_IMAGES; ?>papelitos-home.gif" alt="Viví con Colgate la mejor vuelta al cole"></div>
+        <div class="papelitosProd" style="z-index:0"><img src="<?php echo PATH_IMAGES; ?>papelitos-home.gif" alt="Viví con Colgate la mejor vuelta al cole"></div>
         <div class="colMenu">
             <ul class="menuProd">
                 <li><a href="#productos" class="prod-lateral-gr"><span>Productos</span></a></li>
@@ -20,7 +20,7 @@
             <div class="prodContent">
                 <h3 class="t02">Mi primer Colgate<span>®</span></h3>
                 <p>Los primeros pasos del bebé en la higiene oral.</p>
-                <div class="prodImg">
+                <div class="prodImg unicoProd">
                     <img src="<?php echo PATH_IMAGES; ?>productos/colgate-02.png" alt="Mi primer Colgate, para niños menores de 2 años">
                 </div>
                 <div class="globoProd gl02">

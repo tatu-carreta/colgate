@@ -2,7 +2,7 @@
 <p>Cepillos de cerdas suaves que proporcionan limpieza y
 protección eficaces. Con personajes divertidos para ayudar a
 hacer la rutina siempre divertida.</p>
-<div class="prodImg">
+<div class="prodImg unicoProd">
     <img src="../images/productos/colgate-2.png" alt="Mi primer Colgate, para niños menores de 2 años">
 </div>
 <div class="globoProd gl2">

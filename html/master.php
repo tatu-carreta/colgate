@@ -81,7 +81,7 @@ require_once (__DIR__) . '/../php/config.php';
             <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
         </footer>
 
-        <a href="#" class="scrollUp"></a>
+        <div class="contentUp"><a href="#" class="scrollUp"></a></div>
         
         <div id="divLoading">
             <img width="48" height="48" src="<?php echo PATH_IMAGES; ?>loading.gif">

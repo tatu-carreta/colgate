@@ -1,6 +1,6 @@
 <h3 class="t02">Mi primer Colgate<span>®</span></h3>
 <p>Los primeros pasos del bebé en la higiene oral.</p>
-<div class="prodImg">
+<div class="prodImg unicoProd">
     <img src="../images/productos/colgate-02.png" alt="Mi primer Colgate, para niños menores de 2 años">
 </div>
 <div class="globoProd gl02">

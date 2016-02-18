@@ -41,18 +41,19 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 
 /*section {height: 100%;}*/
 #inicio {min-height: 1000px}
-#bases, #productos {padding-top: 80px}
 #productos .container, #registro .container {height: 100%; padding-top: 10px;} 
 #bases {min-height: 700px}
+#bases .colContent {padding-top: 0.1em;}
 .colMenu {width: 327px; float: left; position: relative; z-index: 100}
-.colContent {margin-left: 327px;position: relative; z-index: 100}
-.divDivisor {margin-top: 3em}
+.colContent {margin-left: 327px;position: relative; z-index: 100; }
+.divDivisor {margin: 3em 0 5em}
 .divDivisor img {width: 100%; height: auto}
 
 .microGde {background: url(../images/sombra.png) no-repeat; background-size: 100%; width: 850px;  position: relative; left:-40px; top:-30px;}/*height: 532px;*/
 .microGde img, .premiosGde img {width: 100%; height: auto}
-.premiosGde {width: 605px; height: 307px; position: absolute; right: -20px; bottom: 80px;}
+.premiosGde {width: 605px; height: 307px; position: absolute; right: -20px; bottom: 80px; z-index: 995;}
 .papelitosHome {width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
+.papelitosProd {width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
 .papelitosRegistro {width: 1200px; height: 458px; position: absolute; bottom: 0; left: 0; transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);}
 
 /* Menúes secundarios laterales */
@@ -100,7 +101,7 @@ button:focus, input:focus {outline: 0}
 .prodContent h3 {margin-bottom: 0.1em; font-size: 1.3em}
 .prodContent h3+p {margin-top: 0; margin-bottom: 3em}
 .prodImg {text-align: center; max-width: 600px;}
-.globoProd {position: absolute; }
+.globoProd {position: absolute; text-align: left}
 .globoProd h2 {font-size: 20px; font-weight: 600; margin: 0}
 .globoProd ul {padding-left: 15px}
 .edad {color: #e2002c; font-weight: 600; font-size: 18px; margin-top: 5px}
@@ -146,7 +147,8 @@ footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
 input[type="text"], input[type="email"] {border:2px solid red; display: inline-block; padding:0 15px; border-radius: 17px; text- font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
 input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 
-.scrollUp{ width:60px; height:60px; opacity:0.9; position:fixed; bottom:20px; right:25px; display:none; background: url(../images/up.png) no-repeat; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%;}
+.contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
+.scrollUp{ width:60px; height:60px; opacity:0.9; position:fixed; z-index: 999; bottom:20px; right:25px; display:none; background: url(../images/up.png) no-repeat; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%;}
 
 /*
     DIV LOADING
@@ -159,21 +161,33 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 /* M E D I A  Q U E R Y */
 
 @media screen and (max-width: 1300px){
-	.premiosGde {width: 500px; right: 0; bottom: 40px;}
-	h2.presentacion {font-size: 42px; line-height: 42px; margin: 0 0 0 30px;}
+	body{background: url(../images/bg-body2.jpg) no-repeat 50% 15%}
+	.premiosGde {width: 40%; right: 20px; bottom: 40px;}
+	h2.presentacion {font-size: 42px; line-height: 41px; margin: 0 0 0 30px;}
+	.microGde {width: 70%; left:-40px; top:-20px; } 
+	.colContent {padding-right: 3em}
 }
 
 @media screen and (max-width: 1200px){
-	.microGde {width: 800px; left:-40px; top:0; }
+	nav.menuPc {right: 30px}
 }
 
 @media screen and (max-width: 1100px){
-	body{background: url(../images/bg-body2.jpg) no-repeat 50% -60px;}
+	body{background: url(../images/bg-body2.jpg) no-repeat 50% 23%;}
+	/*.microGde {width: 680px;}*/
+	.premiosGde {right: 20px; bottom: 0px;} /* width: 480px; */
+	h2.presentacion {font-size: 38px; top:-60px;}
+}
+
+@media screen and (max-width: 1000px){
+	nav.menuPc {transform:scale(0.8); -webkit-transform:scale(0.8); -moz-transform:scale(0.8); -o-transform:scale(0.8); right:-10px; top:50px;}
+	.premiosGde {right: 10px; bottom: 10px;} /* width: 450px; */
+	h2.presentacion {font-size: 35px; top:-90px; line-height:36px }
 }
 
 @media screen and (max-width: 480px){
 	body{background: url(../images/bg-body2.jpg) no-repeat 50% 50%;}
-	#inicio {margin-top: 70px; min-height: 800px;}
+	#inicio {margin-top: 70px; min-height: auto; margin-bottom: 30px;}
 	h1 {height: auto}
 	.h1pc {display: none;}
 	.h1mobile {display: block;}
@@ -187,13 +201,69 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	h2.presentacion {text-align: center; margin: 0 auto; font-size: 1.5em; line-height:1.2em; width: 90%; top: -20px }
 
 	.colMenu {display: none;}
-	.colContent {width: 100%; margin: 0 auto;}
+	.colContent {width: 100%; margin: 0 auto; text-align: left}
 
 	.menuEdad li {width: 18%; height: auto}
 	.menuEdad li button {width: 100%; height: auto}
 	.menuEdad button img {width: 100%; height: auto}
 
-	.observacion {display: block; text-align: center}
+	.papelitosRegistro {display: none}
+	.formRegistro label {font-size: 1.1em; line-height: 1.6em; padding-left: 12px;}
+	.combo {margin-bottom: 15px;}
+	.comboDni {width: 100% !important}
+	.observacion {display: block;}
+	.observacion2 {font-size: 1em !important; line-height: 1.2em !important; padding-left: 30px !important;}   
+	.codigo {width: 33%; margin-bottom: 15px;}
+	.ciudad {width: 65%; margin-bottom: 15px;}
+	.prov {width: 100%}
+	.cArea {width: 33%}
+	.telContacto {width: 65%}
+	input[type="text"], input[type="email"] {height: 35px}
+	.comboEan {display: table; margin-bottom: 40px;}
+	#ean {display: table-cell; width: 85% !important}
+	.masEan{display: table-cell;}
+
+	.globoProd {position: relative;}
+	.globoProd.gl02, .globoProd.gl2, .globoProd.gl25a, .globoProd.gl25b, .globoProd.gl5a, .globoProd.gl5b, .globoProd.gl6a, .globoProd.gl6b {background: #fff; box-sizing:border-box; border-width: 8px; border-style: solid; width: 100%; padding: 20px; height: auto; left:0; bottom:0; top: 0; right: 0; margin-bottom: 20px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px;}
+	/* 02 */
+	.globoProd.gl02 { border-color: #98cb4f;}
+	/* 2+ */
+	.globoProd.gl2 {border-color: #e1a900;}
+	/* 25 */
+	.globoProd.gl25a {border-color: #f2a100;}
+	.globoProd.gl25b {border-color: #f2a100;}
+	/* 5 */
+	.globoProd.gl5a {border-color: #a778af;}
+	.globoProd.gl5b {border-color: #a778af;}
+	/* 6 */
+	.globoProd.gl6a {border-color: #5f147d;}
+	.globoProd.gl6b {border-color: #5f147d;}
+
+	.prodImg img {width: 100%; height: auto}
+	.papelitosProd {width: 100%; top: 200px}
+	.papelitosProd img {width: 100%; height: auto;  }
+	.unicoProd img {width: 25%; height: auto; text-align: center}
+	.btn.linkColgate {margin-right: 0 !important; text-align: center}
+
+	.contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
+	.scrollUp {position:absolute; bottom:20px; left:50%; margin-left: -30px; display:none; }
+	footer {margin-bottom: 100px;}
+}
+
+@media screen and (portrait) and (max-width: 480px){
+    body {background-size: 250% 130%;}
+    .microGde {top: -10px;}
+    h2.presentacion {top:-25px;}
+    .premiosGde {bottom: 20px; right: 0}
+}
+
+@media screen and (max-width: 390px){
+	.labelEan span {display: inline-block;}
+	#ean {display: table-cell; width: 100% !important}
+	.masEan{display: inline-block;}
+	.observacion {display: inline-block;}
+
+	
 }
 
 @media screen and (max-width: 320px){
