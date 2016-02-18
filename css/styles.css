@@ -1,4 +1,4 @@
-body {background: url(../images/bg-body2.jpg) no-repeat center top;  font-family: 'Roboto Condensed', sans-serif; margin:0;}/*ñ*/
+body {background: url(../images/bg-body2.jpg) no-repeat 50% -30px;  font-family: 'Roboto Condensed', sans-serif; margin:0;}/*ñ*/
 body, html {height: 100%}
 .container {max-width: 1180px; margin:0 auto; padding: 0 10px; position: relative;}
 ul, li {list-style: none; padding: 0; margin: 0px;}
@@ -10,7 +10,7 @@ h1 {max-width: 860px; height: 113px; margin:15px auto 0; position: relative; z-i
 h1 img {width: 100%; height: auto}
 .h1mobile {display: none;}
 
-h2.presentacion {color: #fff; font-size: 46px; line-height: 46px; font-weight: 400; width: 43%; margin: 0 0 0 30px; position: relative; top:-100px;}
+h2.presentacion {color: #fff; font-size: 42px; line-height: 42px; font-weight: 400; width: 43%; margin: 0 0 0 30px; position: relative; top:-140px;}
 h2.presentacion span {color: #ffde3d}
 h2.presentacion span.r {font-size: 28px; position: relative; top:-5px; color:#fff;}
 
@@ -49,9 +49,9 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 .divDivisor {margin: 3em 0 5em}
 .divDivisor img {width: 100%; height: auto}
 
-.microGde {background: url(../images/sombra.png) no-repeat; background-size: 100%; width: 850px;  position: relative; left:-40px; top:-30px;}/*height: 532px;*/
+.microGde {background: url(../images/sombra.png) no-repeat; background-size: 100%; width: 70%;  position: relative; left:-40px; top:-30px;}/*height: 532px;*/
 .microGde img, .premiosGde img {width: 100%; height: auto}
-.premiosGde {width: 605px; height: 307px; position: absolute; right: -20px; bottom: 80px; z-index: 995;}
+.premiosGde {width: 45%; height: 307px; position: absolute; right: -20px; bottom: 100px; z-index: 995;}
 .papelitosHome {width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
 .papelitosProd {width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
 .papelitosRegistro {width: 1200px; height: 458px; position: absolute; bottom: 0; left: 0; transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);}
@@ -122,13 +122,13 @@ button:focus, input:focus {outline: 0}
 	.globoProd .ul25 li {list-style-image: url(../images/punto25.svg);}
 	/* 5 */
 	.prodContent h3.t5, .globoProd.gl5a h2, .globoProd.gl5b h2 {color: #a778af}
-	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 325px; box-sizing:border-box; bottom:-30px; left:-250px; padding: 45px 110px 0 70px;}
+	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 325px; box-sizing:border-box; bottom:30px; left:-250px; padding: 45px 110px 0 70px;}
 	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 430px; box-sizing:border-box; bottom:60px; right:-50px; padding: 85px 45px 0 155px;}
 	.globoProd .ul5 li {list-style-image: url(../images/punto5.svg);}
 	/* 6 */
 	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #5f147d}
-	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 412px; height: 355px; box-sizing:border-box; bottom:-90px; left:-320px; padding: 55px 110px 0 70px;}
-	.globoProd.gl6a p {margin:0}
+	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 240px; height: 305px; top:140px; left:-330px; padding: 50px 135px 0 75px;}
+	.globoProd.gl6a p {margin:0; line-height: 1.12em}
 	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 320px; box-sizing:border-box; bottom:50px; right: 0; padding: 90px 45px 0 125px;}
 	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
 
@@ -165,7 +165,7 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 @media screen and (max-width: 1300px){
 	body{background: url(../images/bg-body2.jpg) no-repeat 50% 15%}
 	.premiosGde {width: 40%; right: 20px; bottom: 50px;}
-	h2.presentacion {font-size: 40px; line-height: 40px; margin: 0 0 0 30px; width: 40%; top:-130px;}
+	h2.presentacion {font-size: 39px; line-height: 39px; margin: 0 0 0 30px; width: 40%; top:-135px;}
 	.microGde {width: 70%; left:-40px; top:-20px; } 
 	.colContent {padding-right: 3em}
 	.masProd img{width: 80%}
@@ -253,8 +253,8 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	footer {margin-bottom: 100px;}
 }
 
-@media screen and (portrait) and (max-width: 480px){
-    body {background-size: 250% 130%;}
+@media screen and (max-width: 480px) and (orientation: portrait){
+    body{background: url(../images/bg-body2.jpg) no-repeat 50% 50%; }/*background-size: 250% 140%;*/
     .microGde {top: -10px;}
     h2.presentacion {top:-25px;}
     .premiosGde {bottom: 20px; right: 0}
@@ -269,6 +269,6 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	
 }
 
-@media screen and (max-width: 320px){
+/*@media screen and (max-width: 320px){
 	body{background: url(../images/bg-body2.jpg) no-repeat 50% 50%;}
-}
+}*/

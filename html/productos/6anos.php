@@ -1,11 +1,11 @@
 <h3 class="t6">Etapa de transición</h3>
 <p>Limpieza y protección contra las caries en la fase de transición para los dientes adultos.</p>
 <div class="prodImg masProd">
-    <img src="../images/productos/colgate-6.png" alt="Mi primer Colgate, para niños menores de 2 años">
+    <img src="../images/productos/colgate-6.jpg" alt="Mi primer Colgate, para niños menores de 2 años">
 </div>
 <div class="globoProd gl6a">
     <h2>Enjuague bucal Colgate® Plax Kids/Magic - Bob Esponja <span class="edad">6+ años</span></h2>
-    <p style="margin-top:5px">Diseñado para ayudar a los niños a combatir las caries de una forma divertida.</p>
+    <p style="margin-top:5px">Ayuda a los niños a combatir las caries de una forma divertida.</p>
     <ul class="ul6">
         <li>Fórmula sin alcohol.</li>
         <li>Delicioso sabor a tutti-frutti.</li>

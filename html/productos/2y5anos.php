@@ -1,7 +1,7 @@
 <h3 class="t25">Protección de los dientes de leche</h3>
 <p>Cremas dentales con flúor y cepillos de cerdas suaves que proporcionan limpieza y protección eficaces. Con los personajes preferidos de los chicos, para ayudar a hacer la rutina siempre divertida.</p>
 <div class="prodImg masProd">
-    <img src="../images/productos/colgate-25.png" alt="Mi primer Colgate, para niños menores de 2 años">
+    <img src="../images/productos/colgate-25.jpg" alt="Mi primer Colgate, para niños menores de 2 años">
 </div>
 <div class="globoProd gl25a">
     <h2>Crema dental Colgate® Smiles</h2>
