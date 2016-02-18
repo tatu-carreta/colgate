@@ -10,7 +10,7 @@
         <li>Fórmula sin alcohol.</li>
         <li>Delicioso sabor a tutti-frutti.</li>
     </ul>
-    <p style="color:#5f147d; margin:0">Descubrí la magia! Colgate Plax Magic pinta los dientes y la placa para mostrarte dónde cepillarte de forma divertida. Contiene Flúor para ayudarte a combatir la caries.</p>
+    <p style="color:#5f147d; ">Descubrí la magia! Colgate Plax Magic pinta los dientes y la placa para mostrarte dónde cepillarte de forma divertida. Contiene Flúor para ayudarte a combatir la caries.</p>
 </div>
 
 <div class="globoProd gl6b">

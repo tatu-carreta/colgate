@@ -73,6 +73,7 @@ ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size:
 .menuEdad li {display: inline-block;}
 .menuEdad button {display: block; width: 90px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; background: transparent;border: 0; cursor: pointer;}
 .menuEdad button:hover {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5);}
+.menuEdad .active {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5);}
 .menuEdad button span {display: block}
 button:focus, input:focus {outline: 0}
 
@@ -127,7 +128,7 @@ button:focus, input:focus {outline: 0}
 	/* 6 */
 	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #5f147d}
 	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 412px; height: 355px; box-sizing:border-box; bottom:-90px; left:-320px; padding: 55px 110px 0 70px;}
-	.globoProd.gl6a p {color:#5f147d; margin:0}
+	.globoProd.gl6a p {margin:0}
 	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 320px; box-sizing:border-box; bottom:50px; right: 0; padding: 90px 45px 0 125px;}
 	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
 
