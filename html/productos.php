@@ -11,7 +11,7 @@
         </div>
         <div class="colContent">
             <ul class="menuEdad">
-                <li><button class="btn02 btnProd" data="0y2anos.php"><img src="<?php echo PATH_IMAGES; ?>btn02.svg" alt="De 0 a 2 años"></button></li>
+                <li><button class="btn02 btnProd active" data="0y2anos.php"><img src="<?php echo PATH_IMAGES; ?>btn02.svg" alt="De 0 a 2 años"></button></li>
                 <li><button class="btn2 btnProd" data="2anos.php"><img src="<?php echo PATH_IMAGES; ?>btn2.svg" alt="Más de 2 años"></button></li>
                 <li><button class="btn25 btnProd" data="2y5anos.php"><img src="<?php echo PATH_IMAGES; ?>btn25.svg" alt="De 2 y 5 años"></button></li>
                 <li><button class="btn5 btnProd" data="5anos.php"><img src="<?php echo PATH_IMAGES; ?>btn5.svg" alt="Más de 5 años"></button></li>

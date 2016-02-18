@@ -8,9 +8,12 @@ jQuery.fn.slideFadeToggle = function (speed, easing, callback) {
 
 $(function () {
     $('.btnProd').click(function () {
+        $('.btnProd').removeClass('active');
+        $(this).addClass('active');
         $('.prodContent').load('productos/' + $(this).attr('data'), function () {
             $(this).fadeIn('slow');
         });
+        
     });
 });
 
