@@ -10,7 +10,7 @@ $(function () {
     $('.btnProd').click(function () {
         $('.btnProd').removeClass('active');
         $(this).addClass('active');
-        $('.prodContent').load('productos/' + $(this).attr('data'), function () {
+        $('.prodContent').load(PATH_HOME+'html/productos/' + $(this).attr('data'), function () {
             $(this).fadeIn('slow');
         });
         
