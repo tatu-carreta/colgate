@@ -57,6 +57,23 @@ require_once (__DIR__) . '/../php/config.php';
         <script type="text/javascript" src="http://nexus.ensighten.com/colgatepalmolive/Bootstrap.js"></script>
     </head>
     <body>
+        <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-73999373-1', 'auto');
+    ga('send', 'pageview');
+
+        </script>
         <header>
             <nav class="menuResponsive">
                 <ul>
@@ -76,8 +93,8 @@ require_once (__DIR__) . '/../php/config.php';
 
         <!-- FOOTER -->
         <footer>
-            <p class="copyright"> © 2016 <a onclick="javascript:sendLinkEvent('','www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a onclick="javascript:sendLinkEvent('','www.volviendoalcole.com.ar/www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp');" href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
-            <p class="brand"> <a onclick="javascript:sendLinkEvent('','www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
+            <p class="copyright"> © 2016 <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp');" href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
+            <p class="brand"> <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
         </footer>
 
         <div class="contentUp"><a href="#" class="scrollUp"></a></div>
@@ -97,33 +114,33 @@ require_once (__DIR__) . '/../php/config.php';
 
         <!-- Dynamic SiteCatalyst code version: H.x. Copyright 1997-2004 Omniture, Inc. More info available at http://www.omniture.com --> 
         <script language="JavaScript" type="text/javascript">
-        <!--
+            <!--
                     var s_account = 'CPARAll,CPARPromo';
-        -->
+-->
         </script>
         <script language='JavaScript' src='http://www.colgate.com/Colgate/Common/s_code_remote_h.js'></script>
         <script language="JavaScript">
-        <!-- 
+            <!-- 
                     _omniture.pageName = 'http://www.volviendoalcole.com.ar/Colgate';
-                    _omniture.server = 'http://www.volviendoalcole.com.ar';
-                    _omniture.channel = 'main';
-                    _omniture.account = 'CPARAll,CPARPromo';
-                    _omniture.prop1 = 'Latin America';
-                    _omniture.prop2 = 'Argentina';
-                    _omniture.prop3 = 'Spanish';
-                    _omniture.prop4 = 'Colgate Promo';
-                    _omniture.prop5 = 'Viví con Colgate la Mejor Vuelta al Cole';
-                    _omniture.linkInternalFilter = 'javascript:,/Colgate';
-                    _omniture.hier1 = 'Colgate Universal,';
-        -->
+            _omniture.server = 'http://www.volviendoalcole.com.ar';
+            _omniture.channel = 'main';
+            _omniture.account = 'CPARAll,CPARPromo';
+            _omniture.prop1 = 'Latin America';
+            _omniture.prop2 = 'Argentina';
+            _omniture.prop3 = 'Spanish';
+            _omniture.prop4 = 'Colgate Promo';
+            _omniture.prop5 = 'Viví con Colgate la Mejor Vuelta al Cole';
+            _omniture.linkInternalFilter = 'javascript:,/Colgate';
+            _omniture.hier1 = 'Colgate Universal,';
+-->
         </script> 
         <script language='JavaScript' src='http://www.colgate.com/Colgate/Common/s_code_remote_h_post.js'></script>
         <script language="JavaScript">
-        <!--
+            <!--
                     var s_code = _omniture.t();
-                    if (s_code) {
-                        alert("s_code = " + s_code);
-                                document.write(s_code);
+            if (s_code) {
+                alert("s_code = " + s_code);
+                document.write(s_code);
             } //--></script> 
         <!-- End SiteCatalyst code version: H.x. --> 
         <noscript><img src="http://CPUYAll.112.2o7.net/b/ss/CPARAll,CPARPromo/1/1/H.7--NS/123456?pageName=http://www.volviendoalcole.com.ar/Colgate" width="1" height="1" border="0" /></noscript>
