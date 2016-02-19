@@ -1,0 +1,22 @@
+#AddHandler x-httpd-php5 .php
+# 
+
+
+Options +FollowSymLinks  
+RewriteEngine On  
+
+RewriteBase /
+#IndexOptions +Charset=UTF-8
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f  
+
+RewriteRule ^([^/\.]+)/?$ html/master.php? [L]
+
+
+ErrorDocument 404 http://volviendoalcole.com.ar/
+
+
+
+
+
+
