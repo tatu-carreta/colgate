@@ -212,8 +212,8 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 }
 
 @media screen and (max-width: 880px) and (orientation: landscape){
-    body{background: url(../images/bg-body3.jpg) no-repeat 50% 0;}
-    #inicio {margin-top: 20px;}
+    body{background: url(../images/bg-body3.jpg) no-repeat 50% 40%;}
+    #inicio {margin-top: 20px; min-height: 600px;}
     .premiosGde { bottom: -85px;}
 	h2.presentacion {top:-80px; font-size: 28px; line-height: 29px; width: 45%}
 	nav.menuPc {top:20px;}
@@ -236,6 +236,11 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	.menuEdad button img {width: 100%; height: auto}
 }
 
+@media screen and (max-width: 680px) and (orientation: landscape){
+    body{background: url(../images/bg-body3.jpg) no-repeat 50% 20%;}
+    h2.presentacion {top: -50px;}
+}
+
 @media screen and (max-width: 600px){
 	#inicio {min-height:auto; height: auto }
 	.colMenu {display: none;}
@@ -254,7 +259,10 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	.microGde {top:-50px; } 
 	.premiosGde {top: 50%;}
 }
-
+@media screen and (max-width: 590px) and (orientation: landscape){
+    body{background: url(../images/bg-body5.jpg) no-repeat 50% 10%;}
+    .premiosGde {top: 60%;}
+}
 
 @media screen and (max-width: 480px){	
 	body{background: url(../images/bg-body6.jpg) no-repeat 50% 50%;}
@@ -292,7 +300,7 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	.btn.linkColgate {margin-right: 0 !important; text-align: center}
 
 	.contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
-	.scrollUp {position:absolute; bottom:20px; left:50%; margin-left: -30px; display:none; }
+	.scrollUp {background-position:center; position:absolute; bottom:10px; left:50%; margin-left: -25px; display:none;  width: 50px; height: 50px}
 	footer {margin-bottom: 100px;}
 }
 
@@ -300,7 +308,10 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
     body{background: url(../images/bg-body6.jpg) no-repeat 50% 65%; }
     .microGde {top: -10px; position: relative;}
     h2.presentacion {top:-25px;}
-    .premiosGde {bottom: 20px; right: 0}
+    .premiosGde {bottom: 20px; right: 0;height: auto;}
+}
+@media screen and (max-width: 480px) and (orientation: landscape){
+    body{background: url(../images/bg-body5.jpg) no-repeat 50% 35%; }
 }
 
 @media screen and (max-width: 390px){
@@ -310,6 +321,15 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	.observacion {display: inline-block;}
 }
 
+@media screen and (max-width: 340px) and (orientation: landscape){
+    body{background: url(../images/bg-body5.jpg) no-repeat 50% 15%; }
+    .microGde {top: -25px;}
+    .premiosGde {position:relative; bottom: 0; right: 0; left: 0; top: 0; height: auto;}
+}
 @media screen and (max-width: 340px) and (orientation: portrait){
-    body{background: url(../images/bg-body6.jpg) no-repeat 50% 65%; }
+    body{background: url(../images/bg-body6.jpg) no-repeat 50% 25%; }
+}
+
+@media screen and (max-width: 440px) and (orientation: portrait){
+    body{background: url(../images/bg-body6.jpg) no-repeat 50% 40%; }
 }
