@@ -57,7 +57,7 @@ require_once (__DIR__) . '/../php/config.php';
         <script type="text/javascript" src="http://nexus.ensighten.com/colgatepalmolive/Bootstrap.js"></script>
     </head>
     <body>
-        <script>
+	<script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
@@ -74,6 +74,37 @@ require_once (__DIR__) . '/../php/config.php';
     ga('send', 'pageview');
 
         </script>
+	<script type="text/javascript">
+		adroll_adv_id = "VKJQUJUJTJF5NDREB7MPIE";
+		adroll_pix_id = "Z2YHR727OBAKHF6EZKNCKV";
+		/* OPTIONAL: provide email to improve user identification */
+		/* adroll_email = "username@example.com"; */
+		(function () {
+			var _onload = function(){
+				if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+				if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+				var scr = document.createElement("script");
+				var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+				scr.setAttribute('async', 'true');
+				scr.type = "text/javascript";
+				scr.src = host + "/j/roundtrip.js";
+				((document.getElementsByTagName('head') || [null])[0] ||
+					document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			};
+			if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+			else {window.attachEvent('onload', _onload)}
+		}());
+	</script>
+	
+	<script src="https://secure.adnxs.com/seg?add=4363327&t=1" type="text/javascript"></script>
+	
+	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=913146&mt_adid=156086&v1=&v2=&v3=&s1=&s2=&s3='></script>
+	
+	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=913147&mt_adid=156086&v1=&v2=&v3=&s1=&s2=&s3='></script>
+	
+	<script src="https://secure.adnxs.com/px?id=652525&seg=4363290&t=1" type="text/javascript"></script>
+	
+
         <header>
             <nav class="menuResponsive">
                 <ul>
