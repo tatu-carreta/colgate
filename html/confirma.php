@@ -67,27 +67,19 @@ header('Location: '.PATH_HOME);
 	<script src="https://secure.adnxs.com/px?id=652525&seg=4363290&t=1" type="text/javascript"></script>
 	
 
-        <header>
-            <nav class="menuResponsive">
-                <ul>
-                    <li><a href="#registro" class="reg"><span>¡Registrate ahora!</span></a></li>
-                    <li><a href="#productos" class="prod"><span>Productos</span></a></li>
-                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
-                </ul>
-            </nav>
-        </header>  
-
-        <h1>Gracias por registrarse!!</h1>
+         
+    <div style="max-width:p00px; height:400px; margin:50px auto; padding-top:7%;text-align:center; background:#fff; border-radius:40px; ">
+        <h2 style="font-size: 42px; color:red; font-weight:normal">Gracias por participar!</h2>
 		<br><br>
-		<a href="<?php echo PATH_HOME ?>">Volver</a>
+		<a href="<?php echo PATH_HOME ?>" class="btn" style="margin-bottom:2em">Volver al sitio</a>
 
         <!-- FOOTER -->
         <footer>
             <p class="copyright"> © 2016 <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp');" href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
             <p class="brand"> <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
         </footer>
-
-        <div class="contentUp"><a href="#" class="scrollUp"></a></div>
+    </div>
+        
 
         <div id="divLoading">
             <img width="48" height="48" src="<?php echo PATH_IMAGES; ?>loading.gif">
