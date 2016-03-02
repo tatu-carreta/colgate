@@ -10,6 +10,7 @@ RewriteBase /
 RewriteCond %{SCRIPT_FILENAME} !-d  
 RewriteCond %{SCRIPT_FILENAME} !-f  
 
+RewriteRule ^confirma/([^/\.]+)/?$ html/confirma.php?cg=$1 [L]
 RewriteRule ^([^/\.]+)/?$ html/master.php [L]
 
 DirectoryIndex html/master.php
