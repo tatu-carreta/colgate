@@ -191,12 +191,12 @@ $(function () {
 
         var form = $(this);
 
-        var path_replace_local = PATH_HOME + "/html/confirma.php?cg=090";
-        //var path_replace_www = PATH_HOME + "/../gestion";
+        //var path_replace_local = PATH_HOME + "html/confirma.php?cg=090";
+        var path_replace_www = PATH_HOME + "confirma/090";
         var f_validar = validarRegistro();
         //var f_validar = true;
 
-        console.log(f_submit_replace(form, f_validar, path_replace_local));
+        console.log(f_submit_replace(form, f_validar, path_replace_www));
 
         return false;
     });

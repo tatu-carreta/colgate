@@ -100,10 +100,6 @@ require_once (__DIR__) . '/../php/config.php';
 	
 	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=913146&mt_adid=156086&v1=&v2=&v3=&s1=&s2=&s3='></script>
 	
-	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=913147&mt_adid=156086&v1=&v2=&v3=&s1=&s2=&s3='></script>
-	
-	<script src="https://secure.adnxs.com/px?id=652525&seg=4363290&t=1" type="text/javascript"></script>
-	
 
         <header>
             <nav class="menuResponsive">
