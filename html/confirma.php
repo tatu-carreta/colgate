@@ -66,6 +66,16 @@ header('Location: '.PATH_HOME);
 	
 	<script src="https://secure.adnxs.com/px?id=652525&seg=4363290&t=1" type="text/javascript"></script>
 	
+	<script type='text/javascript'>
+	var ebRand = Math.random()+'';
+	ebRand = ebRand * 1000000;
+	//<![CDATA[ 
+	document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=732812&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
+	//]]>
+	</script>
+	<noscript>
+	<img width="1" height="1" style="border:0" src="HTTP://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=732812&amp;ns=1"/>
+	</noscript>
 
          
     <div style="max-width:p00px; height:400px; margin:50px auto; padding-top:7%;text-align:center; background:#fff; border-radius:40px; ">
