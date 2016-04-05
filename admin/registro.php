@@ -1,7 +1,16 @@
 <?php
 
+
+
 if (!isset($localhost)) {
     require_once (__DIR__) . '/../php/config.php';
+}
+
+if($localhost)
+{
+header('Location: '.PATH_HTML.'/confirma.php?cg=090');
+}else{
+header('Location: '.PATH_HOME.'/confirma/090');
 }
 
 require_once (__DIR__) . '/../php/funciones/funcionesRegistro.php';

@@ -79,7 +79,7 @@ header('Location: '.PATH_HOME);
 
          
     <div style="max-width:p00px; height:400px; margin:50px auto; padding-top:7%;text-align:center; background:#fff; border-radius:40px; ">
-        <h2 style="font-size: 42px; color:red; font-weight:normal">Gracias por participar!</h2>
+        <h2 style="font-size: 42px; color:red; font-weight:normal">Formulario cerrado desde las 24:00 horas del 31 de Marzo de 2016</h2>
 		<br><br>
 		<a href="<?php echo PATH_HOME ?>" class="btn" style="margin-bottom:2em">Volver al sitio</a>
 
