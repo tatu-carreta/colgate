@@ -20,10 +20,9 @@ require_once (__DIR__) . '/../php/config.php';
             var PATH_HOME = '<?php echo PATH_HOME ?>';
         </script> 
         
-        <!-- Scrip para abrir modal -->
         <script type="text/javascript" src="<?php echo PATH_JS ?>jquery.fancybox.js"></script>
         <link rel="stylesheet" type="text/css" href="<?php echo PATH_CSS; ?>jquery.fancybox.css" media="screen" />
-       <script>
+        <script>
             $(document).ready(function () {
                     $(".fancybox").fancybox();
                     $(".fancybox").trigger('click');
@@ -113,8 +112,11 @@ require_once (__DIR__) . '/../php/config.php';
 	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=913146&mt_adid=156086&v1=&v2=&v3=&s1=&s2=&s3='></script>
 	
     <!-- Modal -->
-    <div id="popup" style="display:none;">
+    <!-- <div id="overlay" class="overlay"></div> -->
+    <div id="popup">
         <div id="modalPremios">
+            <!-- <a onclick="closeDialog('popup');" class="close"></a> -->
+
             <table>
                 <tr>
                     <th colspan="2"><h2>Ganadores</h2></th>
@@ -157,8 +159,8 @@ require_once (__DIR__) . '/../php/config.php';
         </div>
     </div>
 
+<!--     <a onclick="openDialog();" class=""></a> -->
     <a href="#popup" class="fancybox btnGanadores">Ganadores</a>
-
     <!-- Fin Modal -->
         <header>
             <nav class="menuResponsive">
@@ -230,6 +232,5 @@ require_once (__DIR__) . '/../php/config.php';
             } //--></script> 
         <!-- End SiteCatalyst code version: H.x. --> 
         <noscript><img src="http://CPUYAll.112.2o7.net/b/ss/CPARAll,CPARPromo/1/1/H.7--NS/123456?pageName=http://www.volviendoalcole.com.ar/Colgate" width="1" height="1" border="0" /></noscript>
-
     </body>
 </html>
