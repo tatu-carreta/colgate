@@ -19,6 +19,16 @@ require_once (__DIR__) . '/../php/config.php';
             var PATH_CONTROLLER = '<?php echo PATH_CONTROLLER ?>';
             var PATH_HOME = '<?php echo PATH_HOME ?>';
         </script> 
+        
+        <!-- Scrip para abrir modal -->
+        <script type="text/javascript" src="<?php echo PATH_JS ?>jquery.fancybox.js"></script>
+        <link rel="stylesheet" type="text/css" href="<?php echo PATH_CSS; ?>jquery.fancybox.css" media="screen" />
+        <script>
+            $(document).ready(function () {
+                    $(".fancybox").fancybox();
+                    $(".fancybox").trigger('click');
+            });
+        </script>
 
         <!-- anclas -->
         <script type="text/javascript">
@@ -55,6 +65,8 @@ require_once (__DIR__) . '/../php/config.php';
             })
         </script>
         <script type="text/javascript" src="http://nexus.ensighten.com/colgatepalmolive/Bootstrap.js"></script>
+
+        
     </head>
     <body>
 	<script>
@@ -100,7 +112,53 @@ require_once (__DIR__) . '/../php/config.php';
 	
 	<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=913146&mt_adid=156086&v1=&v2=&v3=&s1=&s2=&s3='></script>
 	
+    <!-- Modal -->
+    <div id="popup">
+        <div id="modalPremios">
+            <table>
+                <tr>
+                    <th colspan="2"><h2>Ganadores</h2></th>
+                </tr>
+                <tr>
+                    <td><img src="../images/premio-play.jpg" alt="Consola, premios Volviendo al Cole Golgate"></td>
+                    <td class="txt">Filomena Aloisio</td>
+                </tr>
+                <tr>
+                    <td><img src="../images/premio-tablet.jpg" alt="Tablet, premios Volviendo al Cole Golgate"></td>
+                    <td class="txt" class="txt">
+                        Filomena Aloisio<br>
+                        Andrea Driollet<br>
+                        Alan Vilches<br>
+                        María Yolanda Naccarato<br>
+                        Paula Koller<br>
+                        Mirta Estela Dipierri<br>
+                        Ramón Medina<br>
+                        María Alejandra Sancho<br>
+                        Guillermo Benjaminsen<br>
+                        Alejandro Reynoso
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="../images/premio-bici.jpg" alt="Bicicletas, premios Volviendo al Cole Golgate"></td>
+                    <td class="txt">
+                        Alejandro Reynoso<br>
+                        Flavio Alejandro Taiariol<br>
+                        Mariana Zunilda Armoa<br>
+                        Estela Flores<br>
+                        Ronen Man<br>
+                        Sergio Barrionuevo<br>
+                        María Cecilia Tomasini<br>
+                        Florentina Galvan<br>
+                        Pablo Bellomo<br>
+                        Marcelo Galvan<br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
+    <a href="#popup" class="fancybox btnGanadores">Ganadores</a>
+    <!-- Fin Modal -->
         <header>
             <nav class="menuResponsive">
                 <ul>
