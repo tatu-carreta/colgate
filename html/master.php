@@ -195,6 +195,11 @@ require_once (__DIR__) . '/../php/config.php';
                 $('#masBases').hide();
                 // $('.globoProd').hide();
             });
+            $(function(){
+                $('.fancybox').click(function(){
+                    $(this).fancybox();
+                });
+            });
         </script>
         <script src="<?php echo PATH_JS ?>jqFuncs.js"></script>
 
