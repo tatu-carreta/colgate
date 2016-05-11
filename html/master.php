@@ -157,8 +157,6 @@ require_once (__DIR__) . '/../php/config.php';
         </div>
     </div>
 
-    <a href="#popup" class="fancybox btnGanadores">Ganadores</a>
-
     <!-- Fin Modal -->
         <header>
             <nav class="menuResponsive">
